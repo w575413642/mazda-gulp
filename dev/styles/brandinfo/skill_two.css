@@ -1,0 +1,115 @@
+#maodian .maodian {
+    position: relative;
+    z-index: -99;
+    display: block;
+    padding-top: 150px;
+    margin-top: -150px;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/*title*/
+
+.cti-title {
+    text-align: left;
+    line-height: 25px;
+    color: #A6A6A6;
+    font-size: 14px;
+    margin-bottom: 35px;
+}
+
+.cti-title h2 {
+    font-size: 18px;
+    margin: 20px 0px;
+    font-weight: normal;
+}
+
+
+/*banner*/
+
+.cti-banner, .cti-banner img {
+    width: 100%;
+}
+
+.cti-banner {
+    margin-top: 35px;
+}
+
+
+/*people*/
+
+.cti-people {
+    margin-top: 20px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.cti-people ul {
+    overflow: hidden;
+}
+
+.cti-people ul li a {
+    display: block;
+    position: relative;
+}
+
+.cti-people img {
+    display: block;
+}
+
+.cti-people p {
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    position: absolute;
+    bottom: 0px;
+    line-height: 40px;
+    font-size: 14px;
+    height: 40px;
+    width: 100%;
+    background: url('../../images/alpha_bg.png');
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.cti-people ul {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.cti-people li {
+    float: left;
+    list-style: none;
+    width: 25%;
+    box-sizing: border-box;
+    padding: 0px 10px;
+    margin-bottom: 15px;
+}
+
+.cti-people span {
+    background: blue;
+    width: 100%;
+    height: 100px;
+    display: block;
+}
+
+@media screen and (max-width:768px) {
+    .cti-people p {
+        padding: 0px 8px;
+        box-sizing: border-box;
+    }
+    .cti-people li {
+        width: 33.3%;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .cti-people li {
+        width: 50%;
+    }
+}

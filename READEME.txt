@@ -1,0 +1,151 @@
+测试地址：
+http://mazda.cloud-top.com.cn:8088
+
+设计稿网盘地址:
+
+    http://pan.baidu.com/s/1slEfMXJ
+
+字体引用地址
+
+    https://typekit.com/fonts/source-han-sans-simplified-chinese
+
+广州车展参考
+
+    http://www.mazda.com.cn/2015events/autoshow/2015guangzhou
+
+站内链接跳转规则：
+
+    1级-2级打开新页面
+
+    2级-2.5是打开新页面
+
+    2级-3级是打开新页面
+
+    2.5-3级打开新页面
+
+    2级之间-当前页打开
+
+    2.5级之间-当前页打开
+
+    3级之间-当前页打开
+
+
+页面链接：
+
+    技
+    technique.html
+
+    技-环保技术
+    technique_eqtd.html
+
+    技-创驰蓝天
+    technique_skyactiv.html
+
+    技-驾驶环境
+    technique_person.html
+
+    技-安全理念
+    technique_safetyphilosophy.html
+
+    技-操控表现
+    technique_manipulation.html
+
+    艺
+    design.html
+
+    设计方针
+    design_designguidelines.html
+
+    艺-魂动理念
+    design_moveideas.html
+
+    人
+    carlife.html
+
+    人-车主活动
+    carlife_activity.html
+
+    人-车主故事-国外
+    carlife_foreignstory.html
+
+    人-车主故事-国内
+    carlife_inlandstory.html
+
+    魂
+    heritage.html
+
+    魂-全球荣誉
+    heritage_globalglory.html
+
+    魂-打破常规
+    heritage_breakroutine.html
+
+    新闻列表
+    news_list.html
+
+    3级页面
+
+    设计师-设计色彩师-田渕宽辉
+    article_1.html
+
+    设计师-造型设计师-铃木康朗
+    article_2.html
+
+    建模-建模师-腾井广治
+    article_3.html
+
+    设计-木村幸奈&左腾公宣
+    article_4.html
+
+    设计-冲压技术工程师-后腾畅映
+    article_5.html
+
+    油泥建模师-寺内范雄
+    article_6.html
+
+    设计的力量-赋予汽车生命 vol.1
+    article_7.html
+
+    设计的力量-赋予汽车生命 vol.2
+    article_8.html
+
+    i -ELOOP 减速动能回收系统
+    article_9.html
+
+    MAZDA EV 电动汽车技术
+    article_10.html
+
+    i -STOP 智能怠速停止系统
+    article_11.html
+
+    MAZDA 氢动能技术
+    article_12.html
+
+    「 MINAGI　势」
+    article_13.html
+
+    「 SHINARI 」
+    article_14.html
+
+    SKYACTIV-BODY
+    article_15.html
+
+    SKYACTIV-CHASSIS
+    article_16.html
+
+    SKYACTIV-DRIVE
+    article_17.html
+
+    SKYACTIV-MT
+    article_18.html
+
+    「 TAKERI　雄」
+    article_19.html
+
+    SKYACTIV-G
+    article_20.html
+
+登录账号
+
+  admin
+  Mazda@)!^

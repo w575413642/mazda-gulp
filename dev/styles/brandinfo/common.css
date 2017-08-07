@@ -1,0 +1,241 @@
+.cti-brand-container {
+    position: relative;
+    max-width: 1075px;
+    width: 95%;
+    margin: auto;
+}
+
+.cti-brand-zoom {
+    display: table;
+    width: 100%;
+    margin: 30px 0px;
+}
+
+.cti-brand-zoom.d-last {
+    position: relative;
+    top: 5px;
+    margin-bottom: 0px;
+    margin-top: 25px;
+}
+
+.cti-brand-zoom span {
+    display: table-cell;
+    border-top: 1px solid #2b2b2b;
+}
+
+.cti-brand-zoom span.d-icon {
+    width: 141px;
+    border-color: transparent;
+}
+
+.cti-brand-zoom img {
+    position: relative;
+    top: -9.5px;
+    width: 105px;
+}
+
+
+/**/
+
+.cti-zoom-icon {
+    display: none;
+}
+
+
+/**/
+
+.cti-newsposter img {
+    display: block;
+}
+
+
+/**/
+
+.cti-page-nav {
+    padding: 45px 0px;
+    padding: 40px 0px 20px 0px \9;
+}
+
+.cti-page-nav.d-fix {
+    background: url('../../images/alpha_bg.png');
+    position: fixed;
+    width: 100%;
+    top: 50px;
+    left: 0px;
+    z-index: 500;
+}
+
+.cti-page-nav ul li {
+    -webkit-transition: background 0.4s ease-in-out;
+    -o-transition: background 0.4s ease-in-out;
+    transition: background 0.4s ease-in-out;
+    box-sizing: border-box;
+    float: left;
+    width: 14.2%;
+    line-height: 10px;
+    font-size: 14px;
+    text-align: center;
+    border-right: 1px solid #8e8e8d;
+}
+
+.cti-page-nav ul .d-btntop {
+    display: none;
+}
+
+.cti-page-nav.d-fix {
+    padding: 17px 0;
+}
+
+.cti-page-nav.d-fix ul {
+    width: 840px;
+    height: 100% \9;
+    margin: auto;
+}
+
+.cti-page-nav ul li:first-child {
+    border-left: 1px solid #8e8e8d;
+}
+
+.cti-page-nav.d-fix ul li, .cti-page-nav.d-fix ul li:first-child {
+    border: none;
+}
+
+.cti-page-nav ul li span {
+    display: block;
+    font-size: 10px;
+    padding-top: 6px;
+}
+
+
+/**/
+
+.cti-artxs {
+    position: relative;
+    top: 17.5px;
+}
+
+.cti-artxs ul {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.cti-artxs ul li {
+    box-sizing: border-box;
+    width: 50%;
+    float: left;
+    padding: 0px 10px;
+}
+
+@media screen and (min-width:768px) and (max-width:1920px) {
+    .cti-page-nav.d-fix {
+        top: 100px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1400px) {
+    .cti-page-nav.d-fix {
+        top: 71px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .cti-page-nav.d-fix {
+        top: 50px;
+    }
+}
+
+@media screen and (min-width:768px) {
+    /*.cti-page-nav.d-fix {
+        height: 60px;
+        padding: 0px;
+    }
+    .cti-page-nav.d-fix ul {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+    }
+    .cti-page-nav.d-fix ul li {
+        width: 120px;
+        height: 100%;
+        border: none;
+        float: left;
+    }
+    .cti-page-nav.d-fix ul li a {
+        display: block;
+        padding-top: 16px;
+    }
+    .cti-page-nav.d-fix ul li:hover {
+        background: #2c2d2e;
+    }*/
+}
+
+@media screen and (max-width:768px) {
+    .cti-newsposter {
+        padding-bottom: 30px;
+        overflow: hidden;
+    }
+    .cti-newsposter img {
+        width: 200%;
+        max-width: 200%;
+        margin-left: -50%;
+    }
+    .cti-brand-zoom {
+        margin: 10px 0px;
+    }
+    .cti-brand-zoom.d-last {
+        position: relative;
+        top: 5px;
+        margin-bottom: 0px;
+        margin-top: 10px;
+    }
+    .cti-brand-zoom span.d-icon {
+        width: 100px;
+    }
+    .cti-brand-zoom img {
+        top: -11.5px;
+        width: 76px;
+    }
+    /**/
+    .cti-page-nav {
+        position: relative;
+        background: #0E0F13;
+        padding: 0px;
+        width: 105%;
+        left: -2.5%;
+        margin-bottom: 30px;
+    }
+    .cti-page-nav.d-fix ul {
+        width: 100%;
+    }
+    .cti-page-nav ul {
+        position: relative;
+    }
+    .cti-page-nav ul li {
+        width: 25%;
+        height: 40px;
+        border: none;
+        cursor: pointer;
+        padding-top: 8px;
+    }
+    .cti-page-nav ul li:hover {
+        background: #2C2D2E;
+    }
+    .cti-page-nav ul:after {
+        position: absolute;
+        display: block;
+        width: 100%;
+        top: 24px;
+        height: 20px;
+        /*background: url('../../images/line_light.png') repeat-x;*/
+    }
+    .cti-page-nav ul li:first-child {
+        border-left: none;
+    }
+    .cti-page-nav.d-fix ul .d-btntop {
+        display: block;
+    }
+    /**/
+    .cti-footer-links {
+        padding: 2% 0px 6%;
+    }
+}

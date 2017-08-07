@@ -1,0 +1,31 @@
+{
+  "name": "suwis_gulp",
+  "version": "1.0.1",
+  "description": "suwis gulp project",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "del": "^2.2.1",
+    "gulp": "^3.9.1",
+    "gulp-color": "0.0.1",
+    "gulp-connect": "^4.1.0",
+    "gulp-content-includer": "^0.0.7",
+    "gulp-font-spider": "^0.3.6",
+    "gulp-htmlmin": "^2.0.0",
+    "gulp-less": "^3.1.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-uglify": "^1.5.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.oschina.net/Ivorzk/suwis_gulp.git"
+  },
+  "keywords": [
+    "gulp"
+  ],
+  "author": "ivorzk@qq.com",
+  "license": "ISC"
+}

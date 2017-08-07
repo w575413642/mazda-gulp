@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>首页</title>
+		<base href="../" />
+		<link rel="stylesheet" href="styles/reset.css">
+		<link rel="stylesheet" href="styles/vendor/idangerous.swiper.min.css">
+		<link rel="stylesheet" href="styles/common.css">
+		<link rel="stylesheet" href="styles/article/common.css">
+		<link rel="stylesheet" href="styles/article/article.css">
+		<!-- <script src="https://use.typekit.net/gsm1urt.js"></script>
+<script>
+    try {
+        Typekit.load({
+            async: true
+        });
+    } catch (e) {}
+</script> -->
+<!--[if lt IE9]>
+<script src="scripts/vendor/html5shiv.min.js"></script>
+<script src="scripts/vendor/respond.min.js"></script>
+<![endif]-->
+<!-- 检测代码head部分 -->
+
+	</head>
+
+	<body>
+		<!-- 检测代码 body部分 -->
+
+		<!-- header -->
+<header>
+    <div class="cti-header">
+        <nav class="cleafix">
+            <div class="cti-logo">
+                <div class="d-table">
+                    <div class="d-cell">
+                        <a href="#">
+                            <span class="cti-zoom-icon">
+                                <!-- zoom-icon -->
+                                <img src="images/zoom.png" alt="">
+                                <!-- zoom-icon //-->
+                            </span>
+                            <img src="images/logo.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <ul class="cti-nav clearfix no-select">
+                <li data-target="home">
+                    <div class="d-table">
+                        <div class="d-cell">
+                            <a href="index.html#welcome">
+                                首页
+                                <span>HOME</span>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li data-target="brand">
+                    <div class="d-table">
+                        <div class="d-cell">
+                            <a href="index.html#brand">
+                                品牌核心
+                                <span>BRAND INNOVATION</span>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li data-target="news">
+                    <div class="d-table">
+                        <div class="d-cell">
+                            <a href="index.html#news">
+                                新闻中心
+                                <span>NEWS&SNS</span>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li data-target="event">
+                    <div class="d-table">
+                        <div class="d-cell">
+                            <a href="index.html#event">
+                                精彩活动
+                                <span>EVENT</span>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li data-target="allcar">
+                    <div class="d-table">
+                        <div class="d-cell">
+                            <a href="index.html#allcar">
+                                全部车型
+                                <span>MODELS</span>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="d-table">
+                        <div class="d-cell">
+                            <a href="http://www.faw-mazda.com/" target="_blank">
+                                一汽马自达
+                                <span>FMSC</span>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="d-table">
+                        <div class="d-cell">
+                            <a href="http://www.changan-mazda.com.cn/" target="_blank">
+                                长安马自达
+                                <span>CMAS</span>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="cti-skyactiv">
+                <div class="d-table">
+                    <div class="d-cell">
+                        <span class="d-link">
+                            <a href="technique_skyatctiv.html" target="_blank"></a><a href="design_moveideas.html" target="_blank"></a>
+                            <img src="images/icon_skyactiv.png" alt="">
+                        </span>
+                        <!-- 移动图标 -->
+                        <span class="cti-mobile-btn">
+                            <l></l>
+                            <l></l>
+                            <l></l>
+                            <l></l>
+                        </span>
+                        <!-- 移动图标 //-->
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="cti-nav-line">
+            <span class="d-slider"></span>
+        </div>
+        <!-- 二级导航 -->
+        <div class="cti-subnav">
+            <!-- home -->
+            <div class="cti-subnav-home d-hide">
+                <a href="javascript:$('[data-target='home']').trigger('click');">
+                    <img src="images/nav/home.jpg" alt="">
+                </a>
+            </div>
+            <!-- home //-->
+            <!-- brand -->
+            <div class="cti-subnav-brand d-hide clearfix">
+                <div class="pull-left">
+                    <ul class="d-tab">
+                        <li class="d-active">
+                            <a href="technique.html" target="_blank">
+                                <img src="images/nav/brand_min_text_ji.png" alt="">
+                                <img src="images/nav/brand_min_ji.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="design.html" target="_blank">
+                                <img src="images/nav/brand_min_text_yi.png" alt="">
+                                <img src="images/nav/brand_min_yi.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="carlife.html" target="_blank">
+                                <img src="images/nav/brand_min_text_ren.png" alt="">
+                                <img src="images/nav/brand_min_ren.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="heritage.html" target="_blank">
+                                <img src="images/nav/brand_min_text_hun.png" alt="">
+                                <img src="images/nav/brand_min_hun.jpg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="pull-right cti-navslider">
+                    <div class="d-item d-active">
+                        <img src="images/nav/brand_max_ji.jpg" alt="">
+                        <img class="d-text" src="images/nav/brand_max_ji_text.png" alt="">
+                        <div class="d-btn">
+                            <a href="technique.html" target="_blank">了解详情</a>
+                        </div>
+                        <ul class="d-links">
+                            <li><a href="technique_skyatctiv.html" target="_blank">创驰蓝天</a>|</li>
+                            <li><a href="technique_person.html" target="_blank">驾驶环境</a>|</li>
+                            <li><a href="technique_manipulation.html" target="_blank">操控表现</a>|</li>
+                            <li><a href="technique_safetyphilosophy.html" target="_blank">安全理念</a>|</li>
+                            <li><a href="technique_eptd.html" target="_blank">环保技术</a></li>
+                        </ul>
+                    </div>
+                    <div class="d-item">
+                        <img src="images/nav/brand_max_yi.jpg" alt="">
+                        <img class="d-text" src="images/nav/brand_max_yi_text.png" alt="">
+                        <div class="d-btn">
+                            <a href="design.html" target="_blank">了解详情</a>
+                        </div>
+                        <ul class="d-links">
+                            <li><a href="design_moveideas.html" target="_blank">魂动理念</a>|</li>
+                            <li><a href="design_guidelines.html" target="_blank">设计方针</a>|</li>
+                            <li><a href="design.html#conceptcar">概念车鉴赏</a>|</li>
+                            <li><a href="design.html#evolution">设计的进化</a>|</li>
+                            <li><a href="design.html#experience">设计沙龙</a></li>
+                        </ul>
+                    </div>
+                    <div class="d-item">
+                        <img src="images/nav/brand_max_ren.jpg" alt="">
+                        <img class="d-text" src="images/nav/brand_max_ren_text.png" alt="">
+                        <div class="d-btn">
+                            <a href="carlife.html" target="_blank">了解详情</a>
+                        </div>
+                        <ul class="d-links">
+                            <li><a href="carlife_activity.html" target="_blank">车主活动</a>|</li>
+                            <li><a href="carlife_inlandstory.html" target="_blank">国内车主故事</a>|</li>
+                            <li><a href="carlife_foreignstory.html" target="_blank">海外车主故事</a>|</li>
+                            <li><a href="carlife_download_pic.html">精美壁纸</a>|</li>
+                            <li><a href="carlife_download_video.html">精彩视频</a></li>
+                        </ul>
+                    </div>
+                    <div class="d-item">
+                        <img src="images/nav/brand_max_hun.jpg" alt="">
+                        <img class="d-text" src="images/nav/brand_max_hun_text.png" alt="">
+                        <div class="d-btn">
+                            <a href="heritage.html" target="_blank">了解详情</a>
+                        </div>
+                        <ul class="d-links">
+                            <li><a href="heritage_breakroutine.html" target="_blank">打破常规</a>|</li>
+                            <li><a href="heritage.html#cars">名车鉴赏</a>|</li>
+                            <li><a href="heritage.html#zoom-zoom">ZOOM-ZOOM</a>|</li>
+                            <li><a href="heritage.html#rotary">转子传奇</a>|</li>
+                            <li><a href="heritage_globalglory.html" target="_blank">全球荣誉</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- brand //-->
+            <!-- news -->
+            <div class="cti-subnav-news d-hide clearfix">
+                <div class="pull-left">
+                    <div class="d-item">
+                        <a href="news_list.html#weixin" target="_blank">
+                            <img src="images/nav/news_max.jpg" alt="">
+                            <div class="d-link">
+                                官网微信<br>
+                                <span class="d-btn">了解详情</span>
+                            </div>
+                            <span class="d-text">
+                            马自达发布全新“创驰蓝天”车辆动态控制技术
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="pull-right">
+                    <div class="d-item">
+                        <a href="news_list.html#news" target="_blank">
+                            <img src="images/nav/news_min_01.jpg" alt="">
+                            <div class="d-link">
+                                新闻报道<br>
+                                <span class="d-btn">了解详情</span>
+                            </div>
+                            <span class="d-text">
+                            马自达发布全新“创驰蓝天”车辆动态控制技术
+                            </span>
+                        </a>
+                    </div>
+                    <div class="d-item">
+                        <a href="news_list.html#media" target="_blank">
+                            <img src="images/nav/news_min_02.jpg" alt="">
+                            <div class="d-link">
+                                媒体声音<br>
+                                <span class="d-btn">了解详情</span>
+                            </div>
+                            <span class="d-text">
+                            马自达发布全新“创驰蓝天”车辆动态控制技术
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- news //-->
+            <!-- event -->
+            <div class="cti-subnav-event d-hide clearfix">
+                <div class="pull-left">
+                    <div id="cti_subnav_eventlistmin" class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="d-table">
+                                    <div class="d-cell">
+                                        <a href="#" target="_blank">
+                                            2016年(第十四届)<br/>
+                                            北京国际汽车展览会1
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="d-table">
+                                    <div class="d-cell">
+                                        <a href="#" target="_blank">
+                                            2016年(第十四届)<br/>
+                                            北京国际汽车展览会2
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="d-table">
+                                    <div class="d-cell">
+                                        <a href="#" target="_blank">
+                                            2016年(第十四届)<br/>
+                                            北京国际汽车展览会3
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="d-table">
+                                    <div class="d-cell">
+                                        <a href="#" target="_blank">
+                                            2016年(第十四届)<br/>
+                                            北京国际汽车展览会4
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="d-table">
+                                    <div class="d-cell">
+                                        <a href="#" target="_blank">
+                                            2016年(第十四届)<br/>
+                                            北京国际汽车展览会5
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="d-table">
+                                    <div class="d-cell">
+                                        <a href="#" target="_blank">
+                                            2016年(第十四届)<br/>
+                                            北京国际汽车展览会6
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="d-table">
+                                    <div class="d-cell">
+                                        <a href="#" target="_blank">
+                                            2016年(第十四届)<br/>
+                                            北京国际汽车展览会7
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="d-table">
+                                    <div class="d-cell">
+                                        <a href="#" target="_blank">
+                                            2016年(第十四届)<br/>
+                                            北京国际汽车展览会8
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-btn-down no-select">
+                        <div class="d-table">
+                            <div class="d-cell">
+                                <img src="images/nav/arrow_down.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pull-right">
+                    <div id="cti_subnav_eventlistmax" class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a href="#" target="_blank"><img src="images/nav/event_item_01.jpg" alt=""></a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" target="_blank"><img src="images/nav/event_item_01.jpg" alt=""></a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" target="_blank"><img src="images/nav/event_item_01.jpg" alt=""></a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" target="_blank"><img src="images/nav/event_item_01.jpg" alt=""></a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" target="_blank"><img src="images/nav/event_item_01.jpg" alt=""></a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" target="_blank"><img src="images/nav/event_item_01.jpg" alt=""></a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" target="_blank"><img src="images/nav/event_item_01.jpg" alt=""></a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" target="_blank"><img src="images/nav/event_item_01.jpg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- event //-->
+            <!-- allcar -->
+            <div class="cti-subnav-allcar d-hide clearfix">
+                <div class="pull-left">
+                    <div class="d-item clearfix">
+                        <div class="col-xs-6">
+                            <div class="d-table">
+                                <div class="d-cell">
+                                    <a href="http://www.changan-mazda.com.cn/product/cx5" target="_blank">
+                                        <img src="images/allcar/car_cx5.png" alt="">
+                                        <img src="images/allcar/car_text_cx5.png" alt="">
+                                        <span class="d-price">
+                                            ¥16.98万~24.58万
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-6">
+                            <div class="d-table">
+                                <div class="d-cell">
+                                    <a href="http://www.faw-mazda.com/index.php/hall/zscx_cx-4" target="_blank">
+                                        <img src="images/allcar/car_cx4.png" alt="">
+                                        <img src="images/allcar/car_text_cx4.png" alt="">
+                                        <span class="d-price">
+                                            ¥14.08万~21.58万
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-item clearfix">
+                        <div class="col-xs-6">
+                            <div class="d-table">
+                                <div class="d-cell">
+                                    <a href="http://www.changan-mazda.com.cn/product/axela" target="_blank">
+                                        <img src="images/allcar/car_aksl_sx.png" alt="">
+                                        <img src="images/allcar/car_text_aksl_sx.png" alt="">
+                                        <span class="d-price">
+                                            ¥11.49万~15.99万
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-6">
+                            <div class="d-table">
+                                <div class="d-cell">
+                                    <a href="http://www.changan-mazda.com.cn/product/axela" target="_blank">
+                                        <img src="images/allcar/car_aksl_lx.png" alt="">
+                                        <img src="images/allcar/car_text_aksl_lx.png" alt="">
+                                        <span class="d-price">
+                                            ¥11.49万~15.99万
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-item clearfix">
+                        <div class="col-xs-6">
+                            <div class="d-table">
+                                <div class="d-cell">
+                                    <a href="http://atenza.faw-mazda.com/" target="_blank">
+                                        <img src="images/allcar/car_atz.png" alt="">
+                                        <img src="images/allcar/car_text_atz.png" alt="">
+                                        <span class="d-price">
+                                            ¥17.98万~23.98万
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-6">
+                            <a href="#" target="_blank">
+                                <div class="d-table">
+                                    <div class="d-cell">
+                                        <img src="images/nav/btn_more.png" alt="">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="pull-right">
+                    <div class="d-item">
+                        <img src="images/nav/allcar_bg_01.jpg" alt="">
+                        <div class="d-text">
+                            <div class="d-table">
+                                <div class="d-cell">
+                                    <span class="d-btn-drive" date-toggle="select">
+                                        <span class="d-select">
+                                            <a href="http://www.faw-mazda.com/index.php/drive/Test_drive" target="_blank">一汽马自达预约试驾</a>
+                                            <a href="http://www.changan-mazda.com.cn/buyhelper/testdrive" target="_blank">长安马自达预约试驾</a>
+                                        </span>预约试驾<img src="images/arrow_right.png" alt="">
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="d-link">
+                                <a href="http://www.faw-mazda.com/index.php/dealers/Dealer_query" target="_blank">
+                                    一汽马自达
+                                    <span class="d-en">FMSC</span>
+                                </a>
+                                <a href="http://www.changan-mazda.com.cn/dealer" target="_blank">
+                                    长安马自达
+                                    <span class="d-en">CMAS</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-item">
+                        <img src="images/nav/allcar_bg_02.jpg" alt="">
+                        <div class="d-text">
+                            <div class="d-table">
+                                <div class="d-cell">
+                                    <a href="heritage_globalglory.html" target="_blank" class="d-btn-drive">
+                                        全球荣誉<img src="images/arrow_right.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- allcar //-->
+        </div>
+        <!-- 二级导航 //-->
+    </div>
+</header>
+<!-- header //-->
+<!-- 横竖屏提示 -->
+<!-- <div class="cti-rotator-mask">
+    <div class="d-table">
+        <div class="d-cell text-center">
+            <img src="images/togglescreen.png" alt=""><br>请在横屏观看
+        </div>
+    </div>
+</div> -->
+<!-- 横竖屏提示 //-->
+
+		<!-- 头部图片 -->
+		<div class="cti-topimg cti-over-hid">
+			<img class="cti-img" src="images/article/6/2.png" alt="My default image">
+		</div>
+		<div class="cti-all">
+			<!-- 内容 -->
+			<div class="cti-content-detail">
+				<!-- 左侧 -->
+				<div class="cti-content-left">
+					<img class="cti-phone-none" src="images/article/6/1.png" />
+					<h2>马自达引以为豪的「匠艺」</h2>
+					<p>如果仅仅茫然地描画形状，则难以孕育出富有生命律动的汽车。摆脱固有造型的束缚，无限追求纯粹的生命感，结合马自达设计史上历久弥坚、极富造型能力的「匠艺」功诣，才有了今天的马自达设计。衷心期望各位能够感受到我们的热忱与执着。</p>
+					<h2>为平面形象赋予独有的造型美,油泥建模师寺内范雄</h2>
+					<p>从一枚抽象的速写稿感受其所描绘的世界观，活用卓越的技艺将其立体化。这是将抽象的事物化身为极具丰满含义的产品亮相于现实世界中的瞬间。这就是油泥建模师寺内范雄。他对油泥模胚进行雕琢，并为造型注入新的灵魂。</p>
+					<h2>通过双手，用心勾勒，感性地诉求造型美</h2>
+					<p>油泥建模师的职责在于，使用被称之为「油泥」的工业粘土，将设计师描绘出的平面形象立体化，使之接近于理想的造型。虽然这是一个以数码技术为王的时代，但是马自达的设计团队，仍然执著于通过建模师的双手雕琢油泥模型的方式进行车辆设计，并为之倾注了大量心血。</p>
+					<img src="images/article/6/3.png" />
+
+					<p>
+						油泥模型的优势在于能够直观地勾勒出撼动人类感性的形态美感。在反复调整中，自然而然地找寻出独一无二的完美线条。这种感性美是难以通过数字化重现的。可见，油泥建模师对造型美感的不懈热忱，是Mazda Design基盘的坚实支撑。
+					</p>
+					<h2>极具整体感的空间，源于一毫一厘的精雕细琢之积累 </h2>
+					<p>
+						「在雕琢油泥模型时，为了能将反射光线映衬得更富美感，我最为注重表面的精雕细琢。表面稍有歪曲，反射光线就会显得不顺畅，因此要贴上铝箔，反复进行微调。」 「在内饰方面，重点在于将各个配件风格进行统一。如果仪表板、车门饰板等各个部件的造型风格不统一，就无法营造出一个富有整体感的空间。因此，造型的调整工作尤为重要。」
+					</p>
+					<img src="images/article/6/4.png" />
+					<p>
+						为了更加表现出素材的细腻质感，很多场合需要活用数码技术。数码表现效果好的领域通过数码技术进行处理，而油泥部分则追求非实物造型所不能及的极致效果。两者合一，有助于成就高质量的造型设计。
+					</p>
+					<img src="images/article/6/5.png" />
+					<h2>凭借具有说服力的造型雕塑，成为一名「提案型」建模师</h2>
+					<p>
+						马自达的油泥建模师,需要具备修改车辆造型设计的提案能力。部分情况下，设计师理想中的形态是无法形成实物造型的。这时，油泥建模师会需要从自身角度提出修改提案，这一情形在马自达并不罕见。也正因为油泥建模师时常琢磨造型的精髓与用才能够做到这一点。在此基础上，建模师需要不断磨练自己的造型审美，以增强说服力。美感，不是通过口述来说明，而是通过形态来表达的。雕琢令所有人一见倾心的形态，为提高Mazda Design的品质而不断提高自我。这些话语中饱含着一名追求美感的油泥建模师的自豪之情。
+					</p>
+					<img src="images/article/6/6.png" />
+					<h2>Mazda Design让卓越技术和创新思想共创共鸣，孕育全新价值。</h2>
+					<p>在造型建模的过程中，油泥建模师与数码建模师进行合作是必不可少的。运用数值对感性孕育出的造型形态进行确认，再通过感性重现经过数值雕琢的造型。由此将极具魅力的设计化身为震撼心灵，过目不忘的实物。以一人之热忱,感染整个团队,创造出悸动人心的美感。</p>
+					<img src="images/article/6/7.png" />
+
+				</div>
+				<!-- 右侧 -->
+				<div class="cti-content-right">
+    <div class="cti-right-side">
+        <h2 class="cti-title">全部车型</h2>
+        <b class="cti-p-tip">MODELS</b>
+        <div>
+            <a href="index.html#allcar"><img src="images/article/right.png"></a>
+        </div>
+    </div>
+    <div class="cti-bom-side cti-right-side">
+        <h2 class="cti-title">车主采访</h2>
+        <b class="cti-p-tip">Owner Interview</b>
+        <div class="cti-right-list">
+            <a href="#">
+                <div class="cti-po-re cti-box">
+                    <div class="cti-bright"></div>
+                    <img src="images/article/left-peo.png">
+                    <p class="cti-po-ab">即使面对'以大欺小'的劣势</p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="cti-po-re cti-box">
+                    <div class="cti-bright"></div>
+                    <img src="images/article/left-peo.png">
+                    <p class="cti-po-ab">即使面对'以大欺小'的劣势</p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="cti-po-re cti-box">
+                    <div class="cti-bright"></div>
+                    <img src="images/article/left-peo.png">
+                    <p class="cti-po-ab">即使面对'以大欺小'的劣势</p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="cti-po-re cti-box">
+                    <div class="cti-bright"></div>
+                    <img src="images/article/left-peo.png">
+                    <p class="cti-po-ab">即使面对'以大欺小'的劣势</p>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+<div class="cti-clear"></div>
+
+				<!-- 底部 -->
+				<div class="cti-article-foot">
+    <h1 class="cti-foot-tip">精彩推荐</h1>
+    <div class="cti-foot-content clearfix">
+        <div class="cti-foot-wrap clearfix">
+            <div class="cti-foot-box cti-po-re">
+                <a href="#">
+                    <img src="images/article/right-b.png">
+                    <p class="cti-po-ab">即使面对'以大欺小'的劣势</p>
+                </a>
+            </div>
+            <div class="cti-foot-box cti-po-re">
+                <a href="#">
+                    <img src="images/article/right-b.png">
+                    <p class="cti-po-ab">即使面对'以大欺小'的劣势</p>
+                </a>
+            </div>
+            <div class="cti-foot-box cti-po-re">
+                <a href="#">
+                    <img src="images/article/right-b.png">
+                    <p class="cti-po-ab">即使面对'以大欺小'的劣势</p>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+			</div>
+		</div>
+		<div class="cti-scrl">
+			<div class="cti-scrl-top">
+				<img src="images/top-sc.png">
+			</div>
+			<div class="cti-scrl-bom">
+				<img src="images/bom-sc.png">
+			</div>
+		</div>
+		<!-- footer -->
+<footer>
+    <div class="cti-footer-links">
+        <a href="#">关于企业</a>
+        <a href="#">免责声明</a>
+        <a href="#">集团网站</a>
+        <a href="#">网站地图</a>
+        <a href="#">联系我们</a>
+    </div>
+</footer>
+<!-- footer //-->
+
+		<script type="text/javascript" src="scripts/vendor/jquery.min.js"></script>
+		<script type="text/javascript" src="scripts/vendor/idangerous.swiper.min.js"></script>
+		<script type="text/javascript" src="scripts/common.js"></script>
+		<script type="text/javascript" src="scripts/detail/detail.js"></script>
+		<script type="text/javascript" src="scripts/vendor/picturefill.min.js"></script>
+	</body>
+
+</html>

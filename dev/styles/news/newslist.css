@@ -1,0 +1,287 @@
+.cti-newsposter {
+    padding-bottom: 55px;
+}
+
+.cti-news-container {
+    max-width: 1075px;
+    width: 95%;
+    margin: auto;
+}
+
+.cti-news-container .d-section-title {
+    font-size: 24px;
+    color: #999898;
+    text-align: center;
+    padding: 10px 0px;
+    letter-spacing: 6px;
+    font-weight: lighter;
+}
+
+.cti-news-list .d-row {
+    margin-left: -6px;
+    margin-right: -6px;
+}
+
+.cti-news-list .d-item {
+    box-sizing: border-box;
+    width: 25%;
+    float: left;
+    padding: 8px 6px;
+}
+
+.cti-news-list .d-imgbox {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+
+.cti-news-list .d-imgbox>img {
+    display: block;
+}
+
+.cti-news-list .d-imgbox .d-mask {
+    -webkit-transition: all 0.3s ease 0.2s;
+    -o-transition: all 0.3s ease 0.2s;
+    transition: all 0.3s ease 0.2s;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    top: 0px;
+    opacity: 0;
+    display: none\9;
+}
+
+.cti-news-list .d-imgbox .d-mask img {
+    position: relative;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+    opacity: 0;
+    z-index: 99;
+    margin-top: -17.25px;
+}
+
+.cti-news-list .d-imgbox:hover .d-mask {
+    opacity: 1;
+    display: block\9;
+}
+
+.cti-news-list .d-imgbox:hover .d-mask img {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+}
+
+.cti-news-list .d-item a {
+    display: block;
+    position: relative;
+}
+
+.cti-news-list .d-item .d-title {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    bottom: 0px;
+    height: 35px;
+    background: url('../../images/alpha_bg.png');
+    color: #a9a9a9;
+    padding: 0px 4%;
+    font-size: 14px;
+    line-height: 35px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.cti-news-list .d-item .d-title {
+    color: #fff;
+}
+
+.cti-news-container .d-filter {
+    margin: 7px 0px;
+}
+
+.cti-news-container .d-filter select {
+    appearance: none;
+    -moz-appearance: none;
+    /* Firefox */
+    -webkit-appearance: none;
+    /* Safari 和 Chrome */
+    background: transparent url('../../images/arrow_right.png') no-repeat right center;
+    background-size: 6px;
+    border: none;
+    display: block;
+    color: #fff;
+    letter-spacing: 7px;
+    padding-right: 7px;
+}
+
+.cti-news-container .d-filter .d-select {
+    position: relative;
+    float: right;
+    margin-left: 20px;
+    width: 120px;
+    background: #202120;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.cti-news-container .d-filter .d-select .d-tip {
+    display: block;
+    padding-right: 7px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 14px;
+    padding: 5px;
+    background: transparent url('../../images/arrow_right.png') no-repeat 90% center;
+    background-size: 6px;
+    cursor: pointer;
+}
+
+.cti-news-container .d-filter .d-select ul {
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    z-index: 999;
+    background: #202120;
+    text-align: center;
+    display: none;
+}
+
+.cti-news-container .d-filter .d-select ul li {
+    border-top: 1px solid #484848;
+    height: 25px;
+    line-height: 25px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.cti-news-container .d-filter .d-select ul li:hover {
+    background: #383838;
+}
+
+.cti-pagination {
+    padding: 22px 0px;
+}
+
+.cti-pagination .btn-group {
+    position: relative;
+    left: 50%;
+    float: left;
+}
+
+.cti-pagination a, .cti-pagination span {
+    position: relative;
+    display: block;
+    min-width: 22px;
+    height: 40px;
+    background: #212121;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    font-size: 14px;
+    float: left;
+    margin: 0px 6px;
+    right: 50%;
+    padding: 0px 10px;
+}
+
+.cti-pagination a:hover, .cti-pagination span {
+    background: #505050;
+}
+
+.cti-news-zoom {
+    display: table;
+    width: 100%;
+    margin: 30px 0px;
+}
+
+.cti-news-zoom.d-last {
+    position: relative;
+    top: 5px;
+    margin-bottom: 0px;
+    margin-top: 25px;
+}
+
+.cti-news-zoom span {
+    display: table-cell;
+    border-top: 1px solid #2b2b2b;
+}
+
+.cti-news-zoom span.d-icon {
+    width: 141px;
+    border-color: transparent;
+}
+
+.cti-news-zoom img {
+    position: relative;
+    top: -9.5px;
+    width: 105px;
+}
+
+
+/*loading*/
+
+.cti-newsloading {
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background: url('../../images/ajax_loading.gif') no-repeat center;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (max-width:1366px) {
+    .cti-news-container {
+        max-width: 1000px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .cti-newsposter {
+        padding-bottom: 30px;
+    }
+    .cti-news-list .d-item {
+        width: 33.3%;
+    }
+    .cti-news-list .d-imgbox .d-mask img {
+        max-width: 40px;
+    }
+    .cti-news-zoom {
+        margin: 10px 0px;
+    }
+    .cti-news-zoom.d-last {
+        position: relative;
+        top: 5px;
+        margin-bottom: 0px;
+        margin-top: 10px;
+    }
+    .cti-news-zoom span.d-icon {
+        width: 100px;
+    }
+    .cti-news-zoom img {
+        top: -11.5px;
+        width: 76px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .cti-news-list .d-item {
+        width: 50%;
+    }
+}

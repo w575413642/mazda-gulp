@@ -1,0 +1,11 @@
+{
+    "src": "src",
+    "dev": "dev",
+    "prod": "prod",
+    "ignoredir": ["block","video"],
+    "connectjs": false,
+    "connectcss": false,
+    "deletedcolor": "RED",
+    "addedcolor": "GREEN",
+    "changedcolor": "YELLOW"
+}

@@ -1,0 +1,1905 @@
+.cti-all, .cti-desk-jobs, .cti-p1-titBox {
+    overflow: hidden
+}
+
+.cti-desk-jobs, .cti-p1-titBox {
+    position: absolute;
+    z-index: 100
+}
+
+.cti-common-text .cti-text-info, .cti-more {
+    cursor: pointer;
+    height: 40px;
+    line-height: 40px
+}
+
+.ease-ani {
+    transition: All .4s ease-in-out;
+    -webkit-transition: All .4s ease-in-out;
+    -moz-transition: All .4s ease-in-out;
+    -o-transition: All .4s ease-in-out
+}
+
+.cti-bg img {
+    width: 100%
+}
+
+.cti-p1-titBox {
+    overflow: visible;
+    width: 100%;
+    height: 30%;
+    top: 35%
+}
+
+.cti-p1-titBox img {
+    display: block;
+    width: 30%;
+    max-width: 597px!important;
+    margin: 0 auto
+}
+
+.cti-soul-des {
+    display: none;
+    margin-top: 20px
+}
+
+.cti-soul-des * {
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFF;
+    letter-spacing: 3px
+}
+
+.cti-soul-des p {
+    width: 90%;
+    margin: 0 auto
+}
+
+.cti-p1-titBox i {
+    position: absolute;
+    margin-top: 20px;
+    display: block;
+    width: 46px;
+    height: 45px;
+    top: 75.5%;
+    left: 50%;
+    margin-left: -23px;
+    background: url(../../images/add_icon.png) center no-repeat;
+    cursor: pointer;
+}
+
+.cti-desk-jobs {
+    bottom: 100px;
+    left: 50%;
+    width: 840px;
+    margin-left: -420px
+}
+
+.cti-desk-jobs p {
+    text-align: center;
+    float: left;
+    width: 118px;
+    color: #FFF;
+    border-right: 1px solid #FFF
+}
+
+.cti-p2-top, .cti-page-2 {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    background: #000
+}
+
+.cti-desk-jobs a {
+    color: #fff
+}
+
+.cti-desk-jobs span {
+    display: block
+}
+
+.cti-desk-jobs .t-sp-1 {
+    font-size: 14px;
+    margin-bottom: 3px
+}
+
+.cti-desk-jobs .t-sp-2 {
+    font-size: 12px;
+    transform: scale(.8)
+}
+
+.cti-btn-down {
+    bottom: 10px;
+    left: 50%;
+    margin-left: -60px;
+    z-index: 100;
+    -webkit-animation: breathe 3s ease-in-out infinite;
+    animation: breathe 3s ease-in-out infinite
+}
+
+.cti-page-2 {
+    height: 450px
+}
+
+.cti-p2-top {
+    height: 100%
+}
+
+.cti-p2-top img {
+    max-width: 100%
+}
+
+.cti-p2-top .cti-p2-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: 10
+}
+
+.cti-p2-top .cti-p2-tit {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    margin-top: -94px;
+    width: 524px;
+    z-index: 100
+}
+
+.cti-page-3, .cti-page-3 .cti-p3-box, .cti-text-bottom {
+    position: relative;
+    overflow: hidden
+}
+
+.cti-text-bottom {
+    display: table;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    width: 100%;
+    background: #282828;
+    text-align: center;
+    color: #fefefe
+}
+
+.cti-text-bottom.d-section {
+    padding-top: 35px;
+    padding-bottom: 20px
+}
+
+.com-des {
+    line-height: 25px;
+    color: #aba9a9;
+    text-align: left;
+    width: 55%;
+    margin: auto
+}
+
+.com-des.text-center, .cti-middle-des, .cti-middle-tit, .p6-more {
+    text-align: center
+}
+
+.text-bottom-p {
+    margin-bottom: 18px;
+    font-size: 24px;
+    color: #aba9a9
+}
+
+.cti-text-bottom.d-section .text-bottom-p {
+    margin-bottom: 2px
+}
+
+.cti-text-bottom.d-section .com-des {
+    font-size: 16px;
+    margin-bottom: 15px
+}
+
+.cti-opacity-mask {
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    display: none\9
+}
+
+.p4-inner-box:hover .cti-opacity-mask {
+    display: block\9
+}
+
+.cti-page-3 {
+    width: 100%;
+    height: 700px
+}
+
+.cti-page-3 .cti-p3-box {
+    float: left;
+    width: 43%
+}
+
+.cti-page-3 .cti-p3-box a {
+    display: block
+}
+
+.cti-page-3 .cti-p3-box:first-child {
+    width: 57%
+}
+
+.h-100 {
+    height: 100%
+}
+
+.h-30 {
+    height: 30%!important
+}
+
+.h-40 {
+    height: 40%!important
+}
+
+.h-50 {
+    height: 50%!important
+}
+
+.h-60 {
+    height: 60%!important
+}
+
+.h-70 {
+    height: 70%!important
+}
+
+.p3-top {
+    background: #313538
+}
+
+.p3-tit-wrap img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 60%!important;
+    z-index: 500
+}
+
+.cti-page-3 .p3-top .p3-top-png {
+    position: static;
+    float: left;
+    display: block;
+    height: auto;
+    width: 101%
+}
+
+.p3-inner-box {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%
+}
+
+.cti-p4-box, .cti-page-4, .p4-inner-box {
+    position: relative;
+    overflow: hidden
+}
+
+.p3-inner-right {
+    overflow: hidden;
+    float: left;
+    margin-left: 30px;
+    width: 350px;
+    height: 100%
+}
+
+.p3-inner-right p {
+    color: #adadad;
+    font-size: 16px;
+    line-height: 25px;
+    width: 315px
+}
+
+.b-bottom {
+    border-bottom: 1px solid #6f7274
+}
+
+.mar-top-30 {
+    margin-top: 20px
+}
+
+.p3-inner-right p.more-p3 {
+    margin-top: 20px;
+    width: 120px;
+    height: 35px;
+    line-height: 35px;
+    border: 1px solid #949697;
+    text-align: center
+}
+
+.p3-inner-tit {
+    width: 227px;
+    margin-top: 40px
+}
+
+.cti-page-4 {
+    width: 100%;
+    height: 600px
+}
+
+.cti-p4-box {
+    float: left;
+    width: 50%;
+    height: 100%
+}
+
+.p4-inner-box a {
+    display: block;
+    height: 100%
+}
+
+.p4-inner-box {
+    float: left;
+    width: 33.333%;
+    height: 50%
+}
+
+.p4-inner-box img {
+    width: 100%
+}
+
+.p4-inner-box p {
+    overflow: hidden;
+    -ms-text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    -moz-binding: url(ellipsis.h-xml#ellipsis);
+    position: absolute;
+    box-sizing: border-box;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 8px;
+    color: #adaeaf;
+    z-index: 200;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+
+.bg-1 {
+    background: url(../../images/alpha_bg_0.5.png);
+    background: #313538\9
+}
+
+.bg-2 {
+    background: url(../../images/alpha_bg_0.5.png);
+    background: #282828\9
+}
+
+.bg-ccc {
+    background: #282828
+}
+
+.w-100 {
+    width: 100%!important
+}
+
+.p4-left-tit {
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+    width: 377px;
+    left: 10%
+}
+
+.cti-p7-box, .cti-page-5, .cti-page-5 .cti-p5-box, .cti-page-7 {
+    position: relative;
+    overflow: hidden
+}
+
+.cti-page-5 {
+    width: 100%;
+    height: 695px
+}
+
+.cti-page-5 .cti-p5-box {
+    float: left;
+    width: 50%;
+    height: 100%
+}
+
+.cti-page-7 {
+    width: 100%;
+    height: 695px;
+    background: #000
+}
+
+.cti-p7-box {
+    float: left;
+    height: 100%
+}
+
+.w-30 {
+    width: 35%;
+    background: #282828
+}
+
+.w-70 {
+    width: 65%
+}
+
+.cti-common-text {
+    display: table;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 500
+}
+
+.cti-common-text img {
+    width: 100%
+}
+
+.cti-middle-tit {
+    font-size: 22px;
+    color: #FFF;
+    margin-bottom: 20px
+}
+
+.cti-middle-des {
+    font-size: 14px;
+    color: #FFF;
+    line-height: 25px;
+    width: 95%;
+    margin: 0 auto
+}
+
+.w-75 {
+    width: 75%;
+    height: 50%
+}
+
+.wid-50 {
+    width: 50%;
+    height: 50%
+}
+
+.bottom-40, .top-60, .w-75 img {
+    width: 100%
+}
+
+.top-60 {
+    overflow: hidden;
+    position: relative;
+    height: 60%
+}
+
+.bottom-40 {
+    display: table;
+    height: 40%
+}
+
+.p6-bottom-tit {
+    width: 190px;
+    display: block;
+    margin: 0 auto
+}
+
+.p6-des {
+    width: 80%;
+    text-align: left;
+    padding-top: 20px;
+    color: #757678;
+    margin: 0 auto
+}
+
+.p6-more {
+    width: 125px;
+    height: 35px;
+    line-height: 35px;
+    border: 1px solid #d6d7d7;
+    color: #d6d7d7;
+    margin: 20px auto 0
+}
+
+.cti-common-text .cti-text-info, .cti-more, .p5-more {
+    border: 1px solid #FFF;
+    text-align: center
+}
+
+.cti-common-text img {
+    position: static!important
+}
+
+.ve-middle {
+    display: table-cell;
+    vertical-align: middle
+}
+
+.cti-common-text .cti-text-info {
+    width: 158px;
+    margin: 10px auto 0;
+    color: #FFF
+}
+
+.cti-text-bottom h4 {
+    padding-top: 50px;
+    font-size: 18px;
+    margin-bottom: 20px
+}
+
+.cti-text-bottom .t-1 {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 20px
+}
+
+.cti-text-bottom .t-2 {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 16px
+}
+
+.cti-more {
+    overflow: hidden;
+    position: relative;
+    font-size: 14px;
+    width: 160px;
+    margin: 20px auto 0
+}
+
+.cti-more p {
+    background: #FFF;
+    transition: All .4s ease-in-out;
+    -webkit-transition: All .4s ease-in-out;
+    -moz-transition: All .4s ease-in-out;
+    -o-transition: All .4s ease-in-out;
+    -webkit-animation-duration: .8s;
+    animation-duration: .8s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    display: none!important
+}
+
+.cti-p3-li li i, .cti-page-5 .cti-p5-box ul li i {
+    left: 0;
+    bottom: 0;
+    background: url(../../images/soul/2px.png) center repeat-x
+}
+
+.cti-art-cars ul li, .cti-cars-dialog .d-close {
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    cursor: pointer
+}
+
+.cti-more:hover p {
+    opacity: 0
+}
+
+.cti-more:hover .line-t {
+    -webkit-animation-name: T;
+    animation-name: T
+}
+
+.cti-more:hover .line-r {
+    -webkit-animation-name: R;
+    animation-name: R
+}
+
+.cti-more:hover .line-b {
+    -webkit-animation-name: B;
+    animation-name: B
+}
+
+.cti-more:hover .line-l {
+    -webkit-animation-name: L;
+    animation-name: L
+}
+
+.cti-more span {
+    color: #FFF
+}
+
+.cti-p3-innerWrap {
+    display: table;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%
+}
+
+.cti-p3-innerWrap div {
+    display: table-cell;
+    vertical-align: middle
+}
+
+.cti-p3-li {
+    overflow: hidden;
+    margin: 0 auto
+}
+
+.cti-p3-li li {
+    float: left;
+    position: relative;
+    width: 25%;
+    cursor: pointer
+}
+
+.cti-p3-li li img {
+    position: static!important;
+    width: 100%
+}
+
+.cti-p3-li li i {
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 2px
+}
+
+.cti-p3-li li:hover i {
+    opacity: 1
+}
+
+.cti-page-5 .cti-p5-box img.cti-p5-tit {
+    position: static;
+    display: block;
+    padding-top: 15%;
+    width: 246px;
+    margin: 0 auto
+}
+
+.cti-page-5 .cti-p5-box ul {
+    overflow: hidden;
+    width: 60%;
+    margin: 60px auto 0
+}
+
+.cti-page-5 .cti-p5-box ul li {
+    position: relative;
+    float: left;
+    width: 20%;
+    height: 40px
+}
+
+.cti-page-5 .cti-p5-box ul li p {
+    color: #858484;
+    font-size: 18px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer
+}
+
+.cti-page-5 .cti-p5-box ul li i {
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    margin: auto;
+    width: 50px;
+    height: 2px
+}
+
+.cti-page-5 .cti-p5-box ul li:hover i {
+    opacity: 1
+}
+
+.bg-active {
+    opacity: 1!important
+}
+
+.cti-page-5 .cti-p5-box img.p5-des {
+    position: static;
+    display: block;
+    text-align: center;
+    width: 568px;
+    margin: 40px auto 0;
+    color: #858484
+}
+
+.p5-more {
+    width: 130px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+    color: #FFF;
+    margin: 60px auto 0;
+    cursor: pointer
+}
+
+.p7-text-box {
+    top: 20%;
+    bottom: inherit;
+    width: 123px
+}
+
+.p7-text-box p {
+    width: 90%
+}
+
+.cti-page-7 .w-30 img {
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    width: 230px
+}
+
+.cti-des-tit {
+    position: relative;
+    left: 20%;
+    font-size: 22px;
+    color: #ababab;
+    line-height: 30px
+}
+
+.cti-page-7 .w-30 ul {
+    position: relative;
+    left: 20%;
+    margin-top: 10px
+}
+
+.cti-page-7 .w-30 ul li {
+    position: relative;
+    height: 40px
+}
+
+.cti-page-7 .w-30 ul li p {
+    color: #ababab;
+    font-size: 14px;
+    line-height: 40px;
+    padding-left: 20px;
+    cursor: pointer
+}
+
+.cti-page-7 .w-30 ul li i {
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -6px;
+    height: 12px;
+    width: 12px;
+    background: url(../../images/technique/circle.png) center no-repeat
+}
+
+.i-1 {
+    width: 100px
+}
+
+.i-2 {
+    width: 100%
+}
+
+.cti-page-7 .w-30 ul li:hover i {
+    opacity: 1
+}
+
+.cti-page-7 .w-30 ul li:hover p {
+    color: #FFF
+}
+
+.middle-box {
+    display: table
+}
+
+.middle-box div {
+    display: table-cell;
+    vertical-align: middle
+}
+
+.cti-page-7 .w-30 ul li.line-45 {
+    height: 45px
+}
+
+.cti-page-7 .w-30 ul li.line-45 p {
+    line-height: 20px
+}
+
+.cti-page-bottom {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 580px
+}
+
+.cti-page-bottom .cti-bottom-top {
+    overflow: hidden;
+    margin: 80px auto 20px;
+    width: 60%
+}
+
+.cti-bottom-top .car-show-box {
+    position: relative;
+    overflow: hidden;
+    float: left;
+    width: 25%;
+    height: 140px;
+    cursor: pointer
+}
+
+.car-show-box .b-t {
+    display: block;
+    width: 70%;
+    margin: 0 auto
+}
+
+.car-show-box .b-b {
+    opacity: .5;
+    display: block;
+    width: 90%;
+    margin: 0 auto
+}
+
+.car-show-box p {
+    opacity: .5;
+    display: block;
+    width: 100%;
+    margin: 15px auto 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 12px
+}
+
+.b-b, .car-show-box:hover .b-b, .car-show-box:hover p {
+    opacity: 1
+}
+
+.cti-page-bottom .cti-bottom-footer {
+    overflow: hidden;
+    width: 500px;
+    margin: 50px auto 0
+}
+
+.cti-bottom-footer ul {
+    overflow: hidden;
+    width: 100%
+}
+
+.cti-bottom-footer ul li {
+    float: left;
+    width: 20%
+}
+
+.cti-bottom-footer ul li span {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    color: #616161;
+    cursor: pointer
+}
+
+.bottom-show-img {
+    width: 1026px;
+    max-width: 100%!important;
+    display: block;
+    margin: 0 auto;
+    padding-top: 45px
+}
+
+.cti-opacity-mask {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../../images/opacity_black.png);
+    z-index: 300
+}
+
+.cti-mask-box:hover .cti-opacity-mask {
+    opacity: 1;
+    filter: alpha(opacity=100)
+}
+
+.p4-inner-box .cti-opacity-mask {
+    opacity: 1
+}
+
+.p4-inner-box:hover .cti-opacity-mask {
+    opacity: 0
+}
+
+.cti-mask-box:hover .common-ani-des {
+    display: block;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    animation-delay: .5s;
+    -webkit-animation-delay: .5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp
+}
+
+.cti-mask-box:hover .common-ani-tit {
+    opacity: 0;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    animation-delay: .5s;
+    -webkit-animation-delay: .5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp
+}
+
+.mini-footer {
+    display: none
+}
+
+.cti-art-cars {
+    position: relative
+}
+
+.cti-art-cars .slider {
+    margin-bottom: 0;
+    cursor: pointer
+}
+
+.cti-art-cars .slick-next, .cti-art-cars .slick-prev {
+    display: block;
+    background: url(../../images/controls.png) no-repeat;
+    top: 50%;
+    width: 30px;
+    height: 30px;
+    margin: auto;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, .1);
+    z-index: 888;
+    z-index: 9999\9
+}
+
+.cti-art-cars .slick-next:before, .cti-art-cars .slick-prev:before {
+    content: ''
+}
+
+.cti-art-cars .slick-prev {
+    left: 100px;
+    background-position: 0 0
+}
+
+.cti-art-cars .slick-next {
+    right: 100px;
+    background-position: -34px 0
+}
+
+.cti-art-cars img {
+    display: block;
+    max-width: 100%
+}
+
+.cti-art-cars .d-cartab {
+    position: absolute;
+    width: 100%;
+    bottom: 6.5%;
+    z-index: 888
+}
+
+.cti-art-cars ul {
+    position: relative;
+    float: left;
+    left: 50%
+}
+
+.cti-art-cars ul li {
+    transition: all .3s ease;
+    position: relative;
+    background: #282828;
+    right: 50%;
+    float: left;
+    padding: 20px 45px;
+    font-weight: lighter;
+    color: #aba9a9
+}
+
+.cti-art-cars ul li.d-active, .cti-art-cars ul li:hover {
+    color: #fff
+}
+
+.cti-art-cars ul li l {
+    position: absolute;
+    right: 0;
+    top: 18px
+}
+
+.cti-art-cars .d-link {
+    position: absolute;
+    width: 100%;
+    bottom: 17.2%;
+    z-index: 200;
+    text-align: center
+}
+
+.cti-art-cars .d-link .d-btn {
+    display: inline-block;
+    width: 160px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 1%;
+    margin-right: 1%
+}
+
+.cti-cars-dialog {
+    position: absolute;
+    width: 1000px;
+    top: 8%;
+    margin-left: -500px;
+    border: 1px solid #4d3e3e;
+    left: -200%;
+    z-index: 500
+}
+
+.cti-cars-dialog.d-show {
+    left: 50%
+}
+
+.cti-cars-dialog .d-close {
+    transition: all .3s ease;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: #202020;
+    z-index: 500;
+    padding: 5px;
+}
+
+.cti-cars-dialog .d-close:hover {
+    opacity: 1
+}
+
+.dialog-slider .slick-next, .dialog-slider .slick-prev {
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    width: 50px;
+    height: 100px;
+    margin-top: -50px;
+    z-index: 200;
+}
+
+.dialog-slider .slick-next:hover, .dialog-slider .slick-prev:hover {
+    opacity: 1
+}
+
+.dialog-slider .slick-next:before, .dialog-slider .slick-prev:before {
+    content: '';
+    display: none
+}
+
+.dialog-slider .slick-next {
+    right: 0;
+    background: url(../../images/event_arrow_right.png) center no-repeat #202020
+}
+
+.dialog-slider .slick-prev {
+    left: 0;
+    background: url(../../images/event_arrow_left.png) center no-repeat #202020
+}
+
+.cti-common-height {
+    height: 210px;
+    display: table;
+    padding: 0!important;
+    width: 100%
+}
+
+.cti-common-table {
+    display: table-cell;
+    vertical-align: middle
+}
+
+.cti-design-evolve {
+    overflow: hidden
+}
+
+.cti-design-evolve img {
+    max-width: 100%;
+    display: block
+}
+
+.cti-design-evolve ul li {
+    position: relative;
+    width: 33.3333%;
+    float: left
+}
+
+.cti-design-evolve ul li .d-mask {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    text-align: center
+}
+
+.cti-design-evolve ul li .d-time {
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 5px
+}
+
+.cti-design-evolve .d-btn {
+    display: inline-block;
+    width: 160px;
+    height: 40px;
+    line-height: 40px;
+    color: #fff
+}
+
+.cti-design-evolve .d-btn .line {
+    background: #fff
+}
+
+.cti-design-evolve h2 {
+    font-size: 20px;
+    color: #fff;
+    font-weight: lighter;
+    padding: 22px 0;
+    letter-spacing: 4px
+}
+
+.cti-design-evolve h2 span {
+    position: relative;
+    top: -8px;
+    font-size: 18px;
+    font-weight: lighter
+}
+
+.cti-design-evolvemodal {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: -150%;
+    top: 0;
+    z-index: 999;
+    background: url(../../images/alpha_0.5.png);
+    opacity: 0
+}
+
+.cti-design-evolvemodal .d-loading {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../../images/ajax_loading.gif) center no-repeat;
+    display: none
+}
+
+.cti-design-evolvemodal .d-loading.d-show {
+    -webkit-transition: opacity .3s ease;
+    -o-transition: opacity .3s ease;
+    transition: opacity .3s ease;
+    display: block
+}
+
+.cti-design-evolvemodal.d-show {
+    opacity: 1;
+    left: 0
+}
+
+.cti-design-evolvemodal.d-hide {
+    opacity: 0
+}
+
+.cti-design-evolvemodal .d-content {
+    -webkit-transition: top .6s ease 0s;
+    -o-transition: top .6s ease 0s;
+    transition: top .6s ease 0s;
+    position: relative;
+    top: 0;
+    opacity: 0;
+    width: 870px;
+    width: 680px\9;
+    margin: auto
+}
+
+.cti-design-evolvemodal .d-content .slick-slider {
+    min-height: 100px
+}
+
+.cti-design-evolvemodal .d-content .d-close {
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    background: #202020;
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    right: 0;
+    top: 0;
+    z-index: 9999;
+    cursor: pointer;
+    opacity: .6
+}
+
+.cti-design-evolvemodal .d-content .d-close:hover {
+    opacity: 1
+}
+
+.cti-design-evolvemodal .d-content img {
+    max-width: 100%
+}
+
+.cti-design-evolvemodal .d-content .d-left {
+    width: 160px;
+    float: left
+}
+
+.cti-design-evolvemodal .d-content .d-left li {
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    width: 46%;
+    padding: 0 2% 4%;
+    cursor: pointer;
+    opacity: .8
+}
+
+.cti-design-evolvemodal .d-content .d-left li:hover {
+    opacity: 1
+}
+
+.cti-design-evolvemodal .d-content .d-right {
+    position: relative;
+    width: 706px;
+    width: 520px\9;
+    float: right;
+    text-align: justify;
+    color: #a4a4a4;
+    font-size: 14px;
+    line-height: 22px
+}
+
+.cti-design-evolvemodal .d-content .slick img {
+    width: 100%
+}
+
+.cti-design-evolvemodal .d-content .d-title {
+    position: relative;
+    left: -160px;
+    height: 1px;
+    width: 160px
+}
+
+.cti-design-evolvemodal .d-content .d-title h1 {
+    font-size: 30px;
+    font-weight: lighter;
+    line-height: 40px
+}
+
+.cti-design-evolvemodal .d-content .d-title h1 .d-tip {
+    position: relative;
+    font-size: 20px;
+    top: -20px;
+    left: 5px
+}
+
+.cti-design-evolvemodal .d-content .d-title span {
+    font-size: 16px;
+    letter-spacing: 7.1px
+}
+
+.cti-page-slider {
+    position: relative
+}
+
+.cti-page-slider .col-xs-6 {
+    position: relative;
+    width: 50%;
+    float: left
+}
+
+.cti-page-slider .swiper-button-next, .cti-page-slider .swiper-button-prev {
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    position: absolute;
+    top: 50%;
+    margin-top: -40px;
+    width: 60px;
+    height: 80px;
+    background: #282828;
+    left: 0;
+    cursor: pointer;
+    opacity: 0
+}
+
+.cti-page-slider:hover .swiper-button-next, .cti-page-slider:hover .swiper-button-prev {
+    opacity: .6
+}
+
+.cti-page-slider .swiper-button-next:hover, .cti-page-slider .swiper-button-prev:hover {
+    opacity: 1
+}
+
+.cti-page-slider .swiper-button-next span, .cti-page-slider .swiper-button-prev span {
+    position: relative;
+    display: block;
+    width: 11px;
+    height: 25px;
+    margin: -12.5px auto auto;
+    background: url(../../images/brandinfo/soul/slider_arrows.png) no-repeat;
+    top: 50%
+}
+
+.cti-page-slider .swiper-button-next {
+    left: auto;
+    right: 0
+}
+
+.cti-page-slider .swiper-button-next span {
+    background-position: -20px 0
+}
+
+.cti-page-slider a {
+    display: block
+}
+
+.cti-page-slider .d-btnplay {
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: url(../../images/play_icon.png) center no-repeat;
+    z-index: 200;
+    cursor: pointer
+}
+
+.cti-artlist-full ul li span, .cti-page-slider .col-xs-6 .d-title span {
+    height: 40px;
+    line-height: 40px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: #fff
+}
+
+.cti-page-slider .d-btnplay:active {
+    -webkit-transform: scale(.9);
+    -ms-transform: scale(.9);
+    transform: scale(.9)
+}
+
+.cti-page-slider .col-xs-6 .d-title {
+    position: absolute;
+    display: block;
+    width: 100%;
+    font-size: 24px;
+    bottom: 24px;
+    text-align: center
+}
+
+.cti-page-slider .col-xs-6 .d-title span {
+    background: url(../../images/opacity_black.png);
+    max-width: 100%;
+    padding: 0 30px
+}
+
+.cti-page-slider img {
+    max-width: 100%
+}
+
+.cti-artlist-full {
+    background: #282828;
+    margin-bottom: 15px
+}
+
+.cti-artlist-full ul li span, .cti-artlist-full ul li:nth-child(2n) span {
+    background: url(../../images/alpha_bg_0.5.png)
+}
+
+.cti-artlist-full a {
+    display: block
+}
+
+.cti-artlist-full ul {
+    width: 95%;
+    margin: auto
+}
+
+.cti-artlist-full ul li {
+    position: relative;
+    float: left;
+    width: 14.285%
+}
+
+.cti-artlist-full ul li .cti-opacity-mask {
+    opacity: 1;
+    display: block\9
+}
+
+.cti-artlist-full ul li:hover .cti-opacity-mask {
+    opacity: 0;
+    display: none\9
+}
+
+.cti-artlist-full img {
+    display: block;
+    max-width: 100%;
+    width: 100%
+}
+
+.cti-artlist-full ul li span {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+    font-size: 14px;
+    padding: 0 10px
+}
+
+@media screen and (max-width:1400px) {
+    .cti-common-height {
+        height: 130px;
+        display: table;
+        padding: 0!important;
+        width: 100%
+    }
+    .cti-common-table {
+        display: table-cell;
+        vertical-align: middle
+    }
+    .cti-soul-des {
+        margin-top: 0
+    }
+    .cti-p1-titBox img {
+        width: 35%
+    }
+    .cti-text-bottom {
+        padding-top: 30px;
+        padding-bottom: 20px
+    }
+    .text-bottom-p {
+        font-size: 20px;
+        margin-bottom: 12px
+    }
+    .com-des, .cti-design-evolvemodal .d-content .slick-slider {
+        margin-bottom: 10px
+    }
+    .com-des {
+        font-size: 14px
+    }
+    .cti-art-cars .d-link .d-btn, .cti-more {
+        font-size: 12px;
+        width: 108px;
+        height: 28px;
+        line-height: 28px
+    }
+    .cti-art-cars .d-link {
+        bottom: 18.5%
+    }
+    .cti-art-cars ul li {
+        padding: 15px 35px;
+        font-size: 14px
+    }
+    .cti-art-cars ul li l {
+        top: 14px
+    }
+    .cti-design-evolve .d-btn {
+        width: 108px;
+        height: 28px;
+        line-height: 28px;
+        font-size: 12px
+    }
+    .cti-design-evolve img {
+        width: 100%
+    }
+    .cti-design-evolve h2 {
+        padding: 15px 0;
+        letter-spacing: 2px
+    }
+    .cti-design-evolve ul li .d-time {
+        bottom: 30px
+    }
+    .cti-design-evolvemodal .d-content .d-title h1 {
+        font-size: 25px;
+        line-height: 35px
+    }
+    .cti-design-evolvemodal .d-content .d-title span {
+        font-size: 14px;
+        letter-spacing: 5.5px
+    }
+    .cti-design-evolvemodal .d-content {
+        width: 700px
+    }
+    .cti-design-evolvemodal .d-content .d-right {
+        width: 537px;
+        line-height: 18px;
+        font-size: 12px
+    }
+    .cti-page-slider .col-xs-6 .d-title {
+        font-size: 18px;
+        padding: 6px 25px
+    }
+    .cti-artlist-full {
+        margin-bottom: 0
+    }
+    .cti-page-slider .swiper-button-next, .cti-page-slider .swiper-button-prev {
+        width: 40px;
+        height: 55px
+    }
+    .cti-cars-dialog {
+        width: 710px;
+        margin-left: -355px
+    }
+    .cti-cars-dialog .d-close {
+        width: 35px;
+        height: 35px
+    }
+    .dialog-slider .slick-next, .dialog-slider .slick-prev {
+        width: 35px;
+        height: 70px;
+        background-size: 25%
+    }
+}
+
+@media screen and (max-width:1280px) {
+    .cti-common-height {
+        height: auto;
+        display: table;
+        padding: 0!important;
+        width: 100%
+    }
+    .cti-more, .cti-page-7 .w-30 ul li {
+        height: 25px
+    }
+    .cti-common-table {
+        display: table-cell;
+        vertical-align: middle
+    }
+    .p6-des {
+        text-align: center;
+        font-size: 12px;
+        padding-top: 10px
+    }
+    .cti-des-tit {
+        font-size: 16px;
+        line-height: 20px
+    }
+    .cti-more, .cti-page-7 .w-30 ul li p {
+        line-height: 25px
+    }
+    .cti-des-tit, .cti-page-7 .w-30 ul {
+        left: 10%
+    }
+    .cti-more {
+        width: 100px;
+        font-size: 12px;
+        margin-top: 10px
+    }
+    .p6-bottom-tit {
+        width: 140px
+    }
+    .p6-des {
+        width: 90%
+    }
+}
+
+@media screen and (max-width:768px) {
+    .cti-page-1 {
+        padding-top: 50px
+    }
+    .cti-p1-titBox img {
+        width: 60%
+    }
+    .cti-p1-titBox {
+        height: 100%;
+        top: 25%
+    }
+    .cti-btn-down, .cti-desk-jobs, .cti-page-bottom, .p3-top {
+        display: none
+    }
+    .cti-soul-des {
+        display: none!important
+    }
+    .cti-soul-img {
+        display: block!important
+    }
+    .cti-p3-box, .cti-p3-box img, .cti-p4-box img {
+        display: block
+    }
+    .cti-p2-top .cti-p2-bg {
+        left: -50%
+    }
+    .cti-p2-top .cti-p2-tit {
+        width: 30%;
+        margin: auto;
+        top: 0;
+        bottom: 0
+    }
+    .cti-page-3 .cti-p3-box {
+        height: 50%
+    }
+    .cti-p3-box img {
+        position: static!important;
+        width: 100%
+    }
+    .p3-tit-wrap {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0
+    }
+    .p3-tit-wrap img {
+        position: relative!important;
+        height: 65px;
+        width: auto!important;
+        top: 50%;
+        margin-top: -32.5px
+    }
+    .cti-p3-li li {
+        width: 50%
+    }
+    .cti-p3-li li img {
+        width: 50%;
+        margin: 0 auto;
+        display: block
+    }
+    .p3-inner-box {
+        position: relative
+    }
+    .cti-page-3 .p3-top .p3-top-png {
+        max-width: 100%;
+        height: auto
+    }
+    .cti-text-bottom {
+        box-sizing: border-box;
+        padding-left: 3%;
+        padding-right: 3%
+    }
+    .cti-p4-box {
+        width: 100%;
+        height: 50%
+    }
+    .p4-inner-box .cti-bg {
+        width: 100%!important;
+        height: auto!important;
+        position: static!important
+    }
+    .p4-inner-box p {
+        position: relative;
+        font-size: 12px;
+        height: 30px;
+        line-height: 30px
+    }
+    .mini-bottom, .mini-top {
+        position: absolute;
+        width: 100%;
+        left: 0
+    }
+    .mini-top {
+        top: 0;
+        height: 30%
+    }
+    .mini-bottom {
+        top: 30%;
+        height: 70%
+    }
+    .cti-middle-des {
+        display: none
+    }
+    .cti-h-40 {
+        height: 40%
+    }
+    .cti-h-60 {
+        height: 60%;
+        top: 40%
+    }
+    .mini-footer {
+        display: block
+    }
+    .cti-artlist-full ul li:last-child, .cti-mask-box:hover .common-ani-des, .cti-page-slider .swiper-button-next, .cti-page-slider .swiper-button-prev {
+        display: none
+    }
+    .cti-opacity-mask {
+        opacity: 0
+    }
+    .cti-mask-box:hover .common-ani-tit {
+        opacity: 1
+    }
+    .cti-art-cars .d-link {
+        bottom: 5%
+    }
+    .p4-inner-box {
+        width: 50%
+    }
+    .cti-artlist-full ul, .cti-design-evolve ul li, .cti-page-slider .col-xs-6 {
+        width: 100%
+    }
+    .cti-design-evolve h2 {
+        font-size: 20px;
+        padding: 2% 0
+    }
+    .cti-artlist-full ul li {
+        width: 50%
+    }
+    .cti-page-3 {
+        height: auto!important
+    }
+    .cti-page-3 .cti-p3-box, .cti-page-3 .cti-p3-box:first-child {
+        width: 100%
+    }
+    .cti-art-cars .d-cartab {
+        position: relative;
+        background: #212121
+    }
+    .cti-art-cars .slick-next, .cti-art-cars .slick-prev {
+        display: none!important
+    }
+    .cti-art-cars ul {
+        width: 85%;
+        margin: auto;
+        float: none;
+        left: 0
+    }
+    .cti-art-cars ul li {
+        box-sizing: border-box;
+        right: 0;
+        width: 33.3%;
+        padding: 0;
+        margin: 4% 0;
+        text-align: center;
+        border-right: 1px solid #9c9b9b;
+        background: 0 0
+    }
+    .cti-art-cars ul li:nth-child(1), .cti-art-cars ul li:nth-child(4n) {
+        border-left: 1px solid #9c9b9b
+    }
+    .cti-art-cars ul li l {
+        display: none
+    }
+    .text-bottom-p {
+        line-height: 20px
+    }
+    .com-des {
+        width: 90%
+    }
+    .com-des:last-child {
+        text-align: left
+    }
+    .cti-page-slider .d-btnplay {
+        background-size: 60px
+    }
+    .cti-page-slider .col-xs-6 .d-title {
+        box-sizing: border-box;
+        height: 25px;
+        line-height: 25px;
+        top: 50%;
+        margin-top: -20px;
+        bottom: auto
+    }
+    .cti-page-slider .col-xs-6.d-video .d-title {
+        bottom: 20px;
+        top: auto;
+        margin-top: auto
+    }
+    .cti-page-slider .col-xs-6 .d-title span {
+        height: 100%;
+        line-height: 25px;
+        padding: 3px 15px;
+        font-size: 12px
+    }
+    .cti-cars-dialog {
+        width: 90%;
+        margin-left: 0
+    }
+    .cti-cars-dialog.d-show {
+        left: 5%
+    }
+    .cti-cars-dialog .d-close {
+        width: 20px;
+        height: 20px
+    }
+    .dialog-slider .slick-next, .dialog-slider .slick-prev {
+        width: 25px;
+        height: 50px;
+        margin-top: -20px
+    }
+    .cti-design-evolvemodal {
+        overflow-y: scroll
+    }
+    .cti-design-evolvemodal .d-content {
+        width: 95%
+    }
+    .cti-design-evolvemodal .d-content .d-left, .cti-design-evolvemodal .d-content .d-right {
+        width: 100%;
+        float: none;
+        clear: both
+    }
+    .cti-design-evolvemodal .d-content .d-left ul {
+        margin-left: -5px;
+        margin-right: -5px
+    }
+    .cti-design-evolvemodal .d-content .d-left li {
+        box-sizing: border-box;
+        width: 20%;
+        padding: 5px;
+        margin: 0
+    }
+    .cti-design-evolvemodal .d-content .d-close {
+        width: 30px;
+        height: 30px
+    }
+    #big-video-image {
+        max-width: 100%
+    }
+}
+
+@media screen and (max-width:768px) and (min-width:550px) {
+    .cti-page {
+        height: 400px!important
+    }
+    .cti-mini-nav {
+        position: absolute;
+        top: 400px
+    }
+}
+
+@media screen and (max-width:600px) {
+    .cti-soul-des {
+        display: none
+    }
+    .cti-soul-des * {
+        letter-spacing: 0
+    }
+    .cti-common-text .cti-text-info {
+        width: 100px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 12px
+    }
+    .cti-design-evolvemodal .d-content .d-left li {
+        width: 25%
+    }
+}
+
+@media screen and (max-width:550px) {
+    .cti-page {
+        height: 250px!important
+    }
+    .cti-mini-nav {
+        position: absolute;
+        top: 220px
+    }
+}
+
+@media screen and (max-width:450px) {
+    .cti-p1-titBox img {
+        margin-top: 50px
+    }
+    .cti-p1-titBox i {
+        width: 25px;
+        height: 25px;
+        background: url(../../images/add_icon.png) center no-repeat;
+        background-size: 100% 100%
+    }
+    .cti-soul-des {
+        margin-top: 20px
+    }
+    .cti-soul-des * {
+        font-size: 12px
+    }
+    .text-bottom-p {
+        font-size: 14px
+    }
+    .com-des {
+        font-size: 12px
+    }
+}

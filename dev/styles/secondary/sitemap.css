@@ -1,0 +1,123 @@
+.cti-zoom-icon {
+    display: none;
+}
+
+.cti-sitemap {
+    width: 95%;
+    max-width: 1170px;
+    margin: auto;
+    padding-top: 2%;
+}
+
+.cti-sitemap .row {
+    padding-bottom: 20px;
+}
+
+.cti-sitemap h1 {
+    color: #a8a8a8;
+    font-weight: normal;
+    font-size: 26px;
+    padding: 20px 0px;
+}
+
+.cti-sitemap h2 {
+    color: #a8a8a8;
+    font-weight: normal;
+    font-size: 22px;
+    padding: 0px 0px 20px 0px;
+}
+
+.cti-sitemap .row {
+    zoom: 1;
+}
+
+.cti-sitemap .row:after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.cti-sitemap .col-xs-4 {
+    width: 30%;
+    float: left;
+}
+
+.cti-sitemap .col-xs-8 {
+    width: 70%;
+    float: left;
+}
+
+.cti-sitemap .d-w4 dl {
+    width: 25%;
+}
+
+.cti-sitemap .d-w3 dl {
+    width: 33.333%;
+}
+
+.cti-sitemap dl {
+    float: left;
+}
+
+.cti-sitemap dl dd, .cti-sitemap ul li {
+    padding: 7.5px 0px;
+    font-size: 15px;
+}
+
+.cti-sitemap a {
+    color: #a8a8a8;
+    font-weight: lighter
+}
+
+.cti-sitemap a:hover {
+    color: #fff;
+}
+
+@media screen and (max-width:1400px) {
+    .cti-sitemap {
+        max-width: 1000px;
+        padding-top: 1%;
+    }
+    .cti-sitemap .row {
+        padding-bottom: 10px;
+    }
+    .cti-sitemap .row:first-child {
+        padding: 0px;
+    }
+    .cti-sitemap h1 {
+        font-size: 18px;
+        padding: 15px 0px;
+    }
+    .cti-sitemap h2 {
+        font-size: 16px;
+        padding-bottom: 15px;
+    }
+    .cti-sitemap dl dd, .cti-sitemap ul li {
+        font-size: 13px;
+        padding: 6px 0px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .cti-sitemap h1 {
+        font-size: 18px;
+        padding: 10px 0px;
+    }
+    .cti-sitemap h2 {
+        font-size: 14px;
+        padding-bottom: 10px;
+    }
+    .cti-sitemap .col-xs-4, .cti-sitemap .col-xs-8 {
+        width: 100%;
+        float: none;
+    }
+    .cti-sitemap dl dd, .cti-sitemap ul li {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:640px) {
+    .cti-sitemap .d-w4 dl, .cti-sitemap .d-w3 dl {
+        width: 100%;
+    }
+}

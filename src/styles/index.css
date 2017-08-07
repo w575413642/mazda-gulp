@@ -1,0 +1,1040 @@
+.cti-welcome, body, html {
+    position: relative
+}
+
+.cti-welcome {
+    overflow: hidden;
+    background: #13001C;
+    z-index: 0
+}
+
+.cti-welcome-slider {
+    margin-bottom: 0;
+    overflow: hidden
+}
+
+.cti-welcome-slide img {
+    display: block;
+    width: 100%
+}
+
+.cti-welcome-slide .cti-big-video::before {
+    position: absolute;
+    content: '';
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../images/common_op.png);
+    cursor: pointer;
+    z-index: 200
+}
+
+.cti-welcome-slide .cti-soul-des, .cti-welcome-slide .cti-soul-img {
+    position: absolute;
+    text-align: center;
+    z-index: 300;
+    top: 25%;
+    width: 100%;
+    color: #fff;
+    line-height: 30px
+}
+
+.cti-welcome-slide .cti-soul-img {
+    left: 50%;
+    width: 594px;
+    margin-left: -297px
+}
+
+.cti-welcome-slide .cti-add-icon {
+    position: absolute;
+    margin-top: 20px;
+    display: block;
+    width: 46px;
+    height: 45px;
+    left: 50%;
+    margin-left: -23px;
+    top: 64.4%;
+    z-index: 300;
+    background: url(../images/add_icon.png) center no-repeat;
+    cursor: pointer
+}
+
+.cti-welcome .cti-btn-activity {
+    pointer-events: all;
+    position: absolute;
+    right: 0;
+    bottom: 20%;
+    z-index: 999;
+    width: 158px;
+    cursor: pointer
+}
+
+.cti-welcome-pagination {
+    bottom: 120px;
+    width: 100%;
+    text-align: center;
+    color: #fff
+}
+
+.cti-welcome-pagination span {
+    display: inline-block;
+    height: 6px;
+    width: 6px;
+    border-radius: 6px;
+    border: 1px solid #999;
+    margin: 0 8px;
+    cursor: pointer
+}
+
+.cti-welcome-pagination span.d-active {
+    background: #fff;
+    border-color: #fff
+}
+
+.cti-welcome .cti-btn-next, .cti-welcome .cti-btn-prev {
+    position: absolute;
+    width: 1px;
+    top: 50%;
+    height: 50px;
+    margin-top: -25px;
+    z-index: 999;
+    left: 50px
+}
+
+.cti-welcome .cti-btn-next {
+    left: auto;
+    right: 70px
+}
+
+.cti-welcome .cti-btn-next .d-icon, .cti-welcome .cti-btn-prev .d-icon {
+    display: block;
+    background: url(../images/controls.png) no-repeat;
+    width: 30px;
+    height: 30px;
+    margin: auto;
+    cursor: pointer
+}
+
+.cti-welcome .swiper-slide img, .cti-welcome .swiper-slide picture {
+    width: 100%
+}
+
+.cti-welcome .cti-btn-next .d-icon {
+    background-position: -34px 0
+}
+
+.cti-welcome-icons {
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    position: absolute;
+    width: 100%;
+    bottom: 80px;
+    opacity: 1;
+    display: block\9;
+    z-index: 999
+}
+
+.cti-btn-down {
+    position: fixed;
+    display: block;
+    padding-top: 8px;
+    -webkit-animation: breathe 3s ease-in-out infinite;
+    animation: breathe 3s ease-in-out infinite;
+    bottom: 15px;
+    left: 50%;
+    margin-left: -53.5px;
+    z-index: 999
+}
+
+.cti-brand, .cti-brand .col-xs-6 {
+    position: relative;
+    overflow: hidden
+}
+
+.cti-btn-down.d-hide {
+    display: none
+}
+
+.cti-brand .col-xs-6 {
+    width: 50%;
+    height: 100%;
+    float: left
+}
+
+.cti-brand .d-pos, .cti-brand-text, .cti-brand-text a {
+    position: absolute
+}
+
+.cti-brand-text {
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 10
+}
+
+.cti-brand-text img {
+    width: 100%\9
+}
+
+.cti-brand-text a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    visibility: hidden
+}
+
+.cti-brand .d-text {
+    position: absolute;
+    top: 0
+}
+
+.cti-brand .col-xs-6 a {
+    overflow: hidden;
+    display: block
+}
+
+.cti-brand .swiper-slide {
+    overflow: hidden;
+    width: 100%
+}
+
+.cti-brand .swiper-slide img {
+    -webkit-transition: all 1.6s ease;
+    -o-transition: all 1.6s ease;
+    transition: all 1.6s ease;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    width: 100% !ie
+}
+
+.cti-brand .swiper-container.d-hover img {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1)
+}
+
+.cti-news, .cti-news .row {
+    position: relative
+}
+
+.cti-news {
+    background: #191919
+}
+
+.cti-news img {
+    display: block
+}
+
+.cti-news .pull-left {
+    position: relative;
+    width: 67.2%;
+    float: left;
+    overflow: hidden
+}
+
+.cti-news .pull-left picture {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: block
+}
+
+.cti-news .pull-left img {
+    -webkit-transition: all 1s linear;
+    -o-transition: all 1s linear;
+    transition: all 1s linear;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1)
+}
+
+.cti-news .pull-left:hover img {
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05)
+}
+
+.cti-news .pull-left:hover .d-text img {
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none
+}
+
+.cti-news .pull-left .d-text {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    opacity: 1;
+    z-index: 10
+}
+
+.cti-news .pull-left .d-text a {
+    display: inline-block;
+    padding: 1% 2.5%;
+    border: 1px solid #fff;
+    font-size: 18px;
+    letter-spacing: 10px;
+    margin: 2.68% 0;
+    color: #fff
+}
+
+.cti-news .pull-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 32.8%;
+    float: right;
+    height: 100%;
+    overflow: hidden
+}
+
+.cti-news .pull-right ul {
+    position: relative;
+    height: 100%
+}
+
+.cti-news .pull-right ul li {
+    border-top: 1px solid #292929;
+    text-align: center;
+    font-size: 13px;
+    height: 50%
+}
+
+.cti-news .row:first-child .pull-right ul li:first-child {
+    border: none
+}
+
+.cti-news .pull-right ul li a {
+    display: block;
+    color: #535353;
+    width: 100%;
+    height: 100%
+}
+
+.cti-news .pull-right ul li a:after {
+    display: block;
+    content: '';
+    clear: both
+}
+
+.cti-news .pull-right ul li span.d-title {
+    text-align: left;
+    width: 65%;
+    display: block;
+    float: left;
+    padding-left: 2%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden
+}
+
+.cti-news .pull-right ul li .d-btn-more {
+    -webkit-transition: opacity .6s ease;
+    -o-transition: opacity .6s ease;
+    transition: opacity .6s ease;
+    position: relative;
+    display: block;
+    background: url(../images/more.png) -10px -10px;
+    width: 58px;
+    height: 10px;
+    float: right;
+    right: 15%
+}
+
+.cti-news .pull-right ul li img {
+    -webkit-transition: all .6s ease;
+    -o-transition: all .6s ease;
+    transition: all .6s ease;
+    -webkit-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    transform: translateY(-100%);
+    position: absolute;
+    top: 0;
+    display: none\9
+}
+
+.cti-event, .cti-event-wrapper {
+    position: relative
+}
+
+.cti-news .pull-right ul li:hover a {
+    color: #fff
+}
+
+.cti-news .pull-right ul li:hover .d-btn-more {
+    background-position: -10px -30px;
+    -webkit-animation: fadeIn .6s ease;
+    animation: fadeIn .6s ease
+}
+
+.cti-news .pull-right ul li:hover img {
+    display: block\9;
+    z-index: 10;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none
+}
+
+.cti-news .pull-right ul li .d-table {
+    position: relative;
+    -webkit-transition: all .6s ease;
+    -o-transition: all .6s ease;
+    transition: all .6s ease;
+    top: 0;
+    opacity: 1;
+    visibility: visible\9
+}
+
+.cti-news .pull-right ul:hover .d-table {
+    opacity: 0;
+    visibility: hidden\9
+}
+
+.cti-news .pull-right ul:hover li {
+    border-color: transparent
+}
+
+.cti-news .pull-right ul:hover li:hover .d-table {
+    top: 25%;
+    opacity: 1;
+    visibility: visible;
+    margin-top: -3.5px
+}
+
+.cti-news .pull-right ul:hover li:first-child:hover .d-table {
+    top: 125%;
+    opacity: 1;
+    visibility: visible;
+    margin-top: -3.5px
+}
+
+.cti-event {
+    clear: both;
+    overflow: hidden
+}
+
+.cti-event .cti-event-slide {
+    -webkit-transition: all .6s ease;
+    -o-transition: all .6s ease;
+    transition: all .6s ease;
+    position: absolute;
+    top: 0;
+    opacity: 0
+}
+
+.cti-event .cti-event-slide.d-active {
+    position: relative;
+    opacity: 1;
+    -webkit-animation: eventIn 1s ease-in-out;
+    animation: eventIn 1s ease-in-out
+}
+
+.cti-event .cti-event-slide img {
+    display: block;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width: 100%\9
+}
+
+.cti-event .cti-event-slide .d-slider-text {
+    position: absolute;
+    top: 35%;
+    left: 6%;
+    width: 24%;
+    text-align: center
+}
+
+.cti-event .cti-event-tab a {
+    display: block
+}
+
+.cti-event .cti-event-tab, .cti-event .cti-event-tab a {
+    color: #fbfbfb
+}
+
+.cti-event .cti-event-tab .col-xs-3 {
+    -webkit-transition: all .6s ease-in-out;
+    -o-transition: all .6s ease-in-out;
+    transition: all .6s ease-in-out;
+    width: 25%;
+    float: left;
+    background: #282828;
+    padding: 2% 0;
+    text-align: center;
+    display: none
+}
+
+.cti-event .cti-event-tab .col-xs-3.d-active {
+    display: block;
+    -webkit-animation: eventIn 1s ease-in-out;
+    animation: eventIn 1s ease-in-out
+}
+
+.cti-event .cti-event-tab .col-xs-3.d-black {
+    background: #111
+}
+
+.cti-event .d-slider-text {
+    color: #fff
+}
+
+.cti-event .d-slider-text span {
+    display: block;
+    margin: auto
+}
+
+.cti-event .d-slider-text b {
+    display: block
+}
+
+.cti-event .d-slider-text .d-lang-en {
+    font-size: 12px;
+    line-height: 16px;
+    padding-bottom: 1%;
+    white-space: nowrap;
+    overflow: hidden
+}
+
+.cti-event .d-slider-text .d-lang-en b {
+    font-size: 14px;
+    font-weight: 400
+}
+
+.cti-event .d-slider-text .d-lang-zh {
+    position: relative;
+    border-top: 1px solid #cfcfcf;
+    padding: 7.5% 0;
+    width: 52%;
+    font-size: 22px;
+    line-height: 30px
+}
+
+.cti-event .d-slider-text .d-lang-zh.d-min {
+    padding-bottom: 0
+}
+
+.cti-event .d-slider-text .d-lang-zh .d-text {
+    position: absolute;
+    width: 120%;
+    left: -10%;
+    top: 10%
+}
+
+.cti-event .d-slider-text .d-lang-zh.d-min .d-text {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 5px
+}
+
+.cti-event .d-slider-text .d-lang-zh b {
+    font-weight: 400;
+    font-size: 26px
+}
+
+.cti-event .d-slider-text .d-link {
+    display: inline-block;
+    padding: 2.3% 6%;
+    letter-spacing: 10px;
+    color: #fff;
+    margin-top: 4%;
+    margin-bottom: 1%;
+    font-size: 14px
+}
+
+.cti-event-arrow {
+    display: none
+}
+
+.cti-allcar .row.d-poster-bottom {
+    display: block
+}
+
+.cti-activity-frame {
+    -webkit-transition: all .6s ease-in-out;
+    -o-transition: all .6s ease-in-out;
+    transition: all .6s ease-in-out;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 99999;
+    background: #000;
+    top: -100%
+}
+
+.cti-activity-frame.d-show {
+    top: 0
+}
+
+.cti-activity-frame .btn-close {
+    -webkit-transition: all .3s ease .3s;
+    -o-transition: all .3s ease .3s;
+    transition: all .3s ease .3s;
+    -webkit-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    width: 40px;
+    margin-left: -20px;
+    cursor: pointer;
+    opacity: 0
+}
+
+.cti-activity-frame.d-show .btn-close:hover {
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none
+}
+
+.cti-activity-frame.d-show .btn-close {
+    -webkit-transition: all .3s ease 1s;
+    -o-transition: all .3s ease 1s;
+    transition: all .3s ease 1s;
+    opacity: 1
+}
+
+.cti-activity-frame iframe {
+    width: 100%;
+    height: 100%
+}
+
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    visibility: visible!important
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes eventIn {
+    0% {
+        opacity: .3
+    }
+    100% {
+        opacity: 1
+    }
+}
+
+@keyframes eventIn {
+    0% {
+        opacity: .3
+    }
+    100% {
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 20%, 0);
+        transform: translate3d(0, 20%, 0)
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none
+    }
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 20%, 0);
+        transform: translate3d(0, 20%, 0)
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none
+    }
+}
+
+.fadeInUp {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+    z-index: 999
+}
+
+@-webkit-keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -20%, 0);
+        transform: translate3d(0, -20%, 0)
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none
+    }
+}
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -20%, 0);
+        transform: translate3d(0, -20%, 0)
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none
+    }
+}
+
+.fadeInDown {
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+    z-index: 999
+}
+
+@-webkit-keyframes fadeOutUp {
+    0% {
+        opacity: 1
+    }
+    to {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -20%, 0);
+        transform: translate3d(0, -20%, 0)
+    }
+}
+
+@keyframes fadeOutUp {
+    0% {
+        opacity: 1
+    }
+    to {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -20%, 0);
+        transform: translate3d(0, -20%, 0)
+    }
+}
+
+.fadeOutUp {
+    -webkit-animation-name: fadeOutUp;
+    animation-name: fadeOutUp
+}
+
+@-webkit-keyframes fadeOutDown {
+    0% {
+        opacity: 1
+    }
+    to {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 20%, 0);
+        transform: translate3d(0, 20%, 0)
+    }
+}
+
+@keyframes fadeOutDown {
+    0% {
+        opacity: 1
+    }
+    to {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 20%, 0);
+        transform: translate3d(0, 20%, 0)
+    }
+}
+
+.fadeOutDown {
+    -webkit-animation-name: fadeOutDown;
+    animation-name: fadeOutDown
+}
+
+@-webkit-keyframes breathe {
+    0%, to {
+        opacity: .1
+    }
+    50% {
+        opacity: 1
+    }
+}
+
+@keyframes breathe {
+    0%, to {
+        opacity: .1
+    }
+    50% {
+        opacity: 1
+    }
+}
+
+@media screen and (max-width:1680px) {
+    .cti-event .d-slider-text .d-lang-zh {
+        font-size: 18px;
+        line-height: 25px
+    }
+    .cti-event .d-slider-text .d-lang-zh b {
+        font-size: 22px
+    }
+    .cti-event .d-slider-text .d-lang-zh.d-min .d-text {
+        font-size: 16px
+    }
+}
+
+@media screen and (max-width:1440px) {
+    .cti-welcome-slide .cti-add-icon {
+        top: 48.2%;
+    }
+    .cti-event .cti-event-tab .col-xs-3 {
+        padding: 1% 0
+    }
+    .cti-event .d-slider-text .d-lang-zh {
+        font-size: 16px;
+        line-height: 20px;
+        padding: 8% 0;
+        width: 56%
+    }
+    .cti-event .d-slider-text .d-lang-zh b {
+        font-size: 18px
+    }
+    .cti-event .d-slider-text .d-lang-zh.d-min {
+        padding: 4% 0
+    }
+    .cti-event .d-slider-text .d-lang-zh.d-min .d-text {
+        font-size: 10px
+    }
+    .cti-event .d-slider-text .d-lang-en {
+        font-size: 10px;
+        line-height: 16px
+    }
+    .cti-event .d-slider-text .d-lang-en b {
+        font-size: 12px
+    }
+    .cti-event .d-slider-text .d-link {
+        letter-spacing: 8px;
+        padding: 0;
+        width: 110px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 12px;
+        margin-top: 2%
+    }
+}
+
+@media screen and (max-width:1100px) {
+    .cti-event .d-slider-text .d-lang-zh {
+        font-size: 18px;
+        line-height: 24px
+    }
+    .cti-event .d-slider-text .d-lang-zh b {
+        font-size: 20px
+    }
+    .cti-event .d-slider-text .d-lang-zh.d-min .d-text {
+        font-size: 16px
+    }
+}
+
+@media screen and (max-width:1100px) and (min-width:768px) {
+    .cti-event .d-slider-text .d-lang-zh {
+        width: 85%;
+        padding: 10% 0;
+        font-size: 13px;
+        line-height: 18px
+    }
+    .cti-event .d-slider-text .d-lang-zh b {
+        font-size: 14px
+    }
+    .cti-event .d-slider-text .d-lang-zh.d-min .d-text {
+        font-size: 12px
+    }
+    .cti-event .d-slider-text .d-link {
+        letter-spacing: 5px;
+        width: 100px;
+        height: 25px;
+        line-height: 25px;
+        margin-top: 5%
+    }
+}
+
+@media screen and (max-width:1024px) and (min-width:920px) {
+    .cti-big-video, .cti-welcome {
+        height: auto!important
+    }
+    .cti-welcome-slide .cti-add-icon {
+        bottom: 25%
+    }
+}
+
+@media screen and (max-width:768px) and (min-width:640px) {
+    .cti-event .d-slider-text .d-lang-zh {
+        width: 80%;
+        padding: 10% 0;
+        font-size: 13px;
+        line-height: 16px
+    }
+    .cti-event .d-slider-text .d-lang-zh b {
+        font-size: 14px
+    }
+    .cti-event .d-slider-text .d-lang-zh.d-min .d-text {
+        font-size: 12px
+    }
+    .cti-event .d-slider-text .d-link {
+        margin-top: 8%
+    }
+}
+
+@media screen and (max-width:768px) {
+    .cti-welcome .cti-btn-next, .cti-welcome .cti-btn-prev {
+        display: none!important
+    }
+    .cti-welcome-pagination span {
+        width: 5px;
+        height: 5px;
+        border-radius: 5px;
+        margin: 0 2%
+    }
+    .cti-welcome .cti-btn-down {
+        max-width: 20%
+    }
+    .cti-welcome-slide .cti-soul-img {
+        box-sizing: border-box;
+        left: auto;
+        width: 100%;
+        padding: 0 5%;
+        margin-left: 0
+    }
+    .cti-brand .col-xs-6 {
+        width: 100%;
+        height: 50%
+    }
+    .cti-brand-text a {
+        visibility: visible;
+        height: 50%
+    }
+    .cti-brand-text a:first-child {
+        position: relative
+    }
+    .cti-brand .swiper-slide img, .cti-news .pull-left {
+        width: 100%
+    }
+    .cti-news .pull-left img {
+        -webkit-transition: none;
+        -o-transition: none;
+        transition: none;
+        width: 100%
+    }
+    .cti-news .pull-left:hover img {
+        -webkit-transform: none;
+        -ms-transform: none;
+        transform: none
+    }
+    .cti-news .pull-left .d-text, .cti-news .pull-right {
+        display: none
+    }
+    .cti-event .cti-event-slide img {
+        width: 100%
+    }
+}
+
+@media screen and (max-width:640px) {
+    .cti-event .cti-event-tab .col-xs-3 {
+        width: 100%;
+        position: absolute;
+        padding: 5% 0;
+        float: none;
+        display: block
+    }
+    .cti-event .cti-event-tab .col-xs-3.d-active, .cti-event-tab {
+        position: relative
+    }
+    .cti-event .d-slider-text .d-lang-zh {
+        font-size: 18px;
+        padding: 7% 0;
+        line-height: 22px;
+        width: 58%;
+        border-color: #b7b7b7;
+        color: #b7b7b7
+    }
+    .cti-event .d-slider-text .d-lang-zh.d-min {
+        padding: 4% 0
+    }
+    .cti-event .d-slider-text .d-lang-zh.d-min .d-text {
+        font-size: 14px;
+        line-height: 22px
+    }
+    .cti-event .d-slider-text .d-link {
+        font-size: 12px;
+        letter-spacing: 6px;
+        padding: 1.8% 5%;
+        width: auto;
+        height: auto;
+        line-height: 20px
+    }
+    .cti-event .d-slider-text .d-link .line {
+        background: #b7b7b7
+    }
+    .cti-event .d-slider-text .d-lang-en {
+        line-height: 16px;
+        padding-bottom: 1%;
+        color: #b7b7b7
+    }
+    .cti-event .d-slider-text .d-lang-en b {
+        font-size: 15px
+    }
+    .cti-event .cti-event-slide .d-slider-text {
+        top: 12%;
+        left: 0;
+        width: 100%;
+        transform: scale(.7)
+    }
+    .cti-event-arrow {
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        display: block
+    }
+    .cti-event-arrow a {
+        display: block;
+        float: right;
+        width: 25px;
+        height: 50px;
+        margin-top: -26px;
+        background: #202020
+    }
+    .cti-event-arrow a:first-child {
+        float: left
+    }
+    .cti-event-arrow a l {
+        display: block;
+        background: url(../images/event_arrow.png) -10px -10px no-repeat;
+        width: 8px;
+        height: 21px;
+        margin: 14.5px auto
+    }
+    .cti-event-arrow a:first-child l {
+        background-position: -10px -41px
+    }
+}

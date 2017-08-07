@@ -1,0 +1,37 @@
+.cti-brand-zoom:nth-last-child(1){
+	margin-bottom:150px;
+}
+
+.cti-brand-container {
+	max-width: 1000px
+}
+
+.cti-contact-title {
+	text-align: left;
+	padding-top: 50px
+}
+
+.cti-contact-title img {
+	display: inline
+}
+
+.cti-disclaimer {
+	line-height: 28px;
+	color: #7a7979;
+	text-align: left;
+	
+	margin-top: 20px
+}
+
+.cti-disclaimer span{
+	font-size:28px;
+	
+}
+.cti-disclaimer h2{
+	font-family:normal;
+	font-size:20px;
+}
+.cti-disclaimer p{
+	font-size:14px;
+}
+

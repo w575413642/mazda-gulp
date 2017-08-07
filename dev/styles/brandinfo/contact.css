@@ -1,0 +1,21 @@
+.cti-brand-container {
+    max-width: 1000px;
+}
+.cti-contact-title {
+    text-align: left;
+    padding-top: 50px;
+}
+.cti-contact-title img {
+    display: inline;
+}
+.cti-address {
+    line-height: 28px;
+    color: #7a7979;
+    text-align: left;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.cti-map {
+    text-align: left;
+    padding-bottom: 50px;
+}

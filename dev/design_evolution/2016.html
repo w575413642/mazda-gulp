@@ -1,0 +1,45 @@
+<div class="d-right">
+    <div id="cti_evolvemodal_slick" class="slick fade">
+        <div class="image"><img src="images/design/evolution/2016/1.jpg" alt=""></div>
+        <div class="image"><img src="images/design/evolution/2016/2.jpg" alt=""></div>
+        <div class="image"><img src="images/design/evolution/2016/3.jpg" alt=""></div>
+        <div class="image"><img src="images/design/evolution/2016/4.jpg" alt=""></div>
+        <div class="image"><img src="images/design/evolution/2016/5.jpg" alt=""></div>
+        <div class="image"><img src="images/design/evolution/2016/6.jpg" alt=""></div>
+    </div>
+</div>
+<div class="d-left">
+    <ul id="cti_evolvemodal_tab">
+        <li><img src="images/design/evolution/2016/1.jpg" alt=""></li>
+        <li><img src="images/design/evolution/2016/2.jpg" alt=""></li>
+        <li><img src="images/design/evolution/2016/3.jpg" alt=""></li>
+        <li><img src="images/design/evolution/2016/4.jpg" alt=""></li>
+        <li><img src="images/design/evolution/2016/5.jpg" alt=""></li>
+        <li><img src="images/design/evolution/2016/6.jpg" alt=""></li>
+    </ul>
+</div>
+<div class="d-right">
+    <div class="d-article">
+        <div class="d-title">
+            <h1>生命美学<span class="d-tip">+</span></h1>
+            <span>[2016年~]</span>
+        </div>
+        <p>
+            2016年东京车展上发布的转子跑车概念车型「Mazda RX-VISION」，表达了马自达对理想的FR跑车形态的唯美追求。摒弃纷繁，追求机械独有的侘寂美和屏息感；删繁就简，仅凭借光影的变化来表现雅致而富鲜活的造型。
+        </p>
+        <p>
+            <!-- <br>代表车型: <br> -->
+        </p>
+    </div>
+</div>
+<script type="text/javascript">
+    (function() {
+        $('#cti_evolvemodal_slick').slick({
+            arrows: false,
+            fade: true
+        });
+        $('#cti_evolvemodal_tab li').mouseenter(function() {
+            $('#cti_evolvemodal_slick').slick('slickGoTo', $(this).index());
+        });
+    })();
+</script>

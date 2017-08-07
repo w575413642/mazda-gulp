@@ -1,0 +1,1 @@
+$(function(){window.swiper=new Swiper("#cti_page_slider",{loop:!0,calculateHeight:!0,speed:800})});

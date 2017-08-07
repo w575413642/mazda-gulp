@@ -1,0 +1,34 @@
+.cti-box p {
+    bottom: 0px;
+    width: 100%;
+    z-index: 4;
+    opacity: 0.8;
+    background: url('../../images/alpha_bg.png');
+    color: white;
+    text-align: center;
+    height: 35px;
+    line-height: 35px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.cti-box img {
+    display: block;
+}
+
+.cti-content-left p, .cti-content-left img {
+    line-height: 24px;
+    font-size: 14px;
+    display: block;
+}
+
+@media screen and (max-width:768px) {
+    .cti-phone-none {
+        display: none!important;
+    }
+    h1 {
+        font-size: 23px;
+        line-height: 28px;
+    }
+}

@@ -1,0 +1,1333 @@
+.ease-ani {
+    transition: All 0.4s ease-in-out;
+    -webkit-transition: All 0.4s ease-in-out;
+    -moz-transition: All 0.4s ease-in-out;
+    -o-transition: All 0.4s ease-in-out;
+}
+
+.cti-p1-titBox {
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    top: 35%;
+    z-index: 100;
+}
+
+.cti-margin-bottom {
+    margin-bottom: 20px;
+}
+
+.cti-margin-top {
+    margin-top: 20px;
+}
+
+.cti-p1-titBox img {
+    display: block;
+    width: 30%;
+    max-width: 597px !important;
+    margin: 0 auto;
+}
+
+.cti-soul-des {
+    display: none;
+    margin-top: 20px;
+}
+
+.cti-soul-des * {
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFF;
+    letter-spacing: 3px;
+}
+
+.cti-soul-des p {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.cti-p1-titBox i {
+    position: absolute;
+    margin-top: 20px;
+    display: block;
+    width: 46px;
+    height: 45px;
+    left: 50%;
+    margin-left: -23px;
+    bottom: 25%;
+    background: url(../../images/add_icon.png) no-repeat center;
+    cursor: pointer;
+}
+
+.cti-desk-jobs {
+    overflow: hidden;
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    width: 840px;
+    margin-left: -420px;
+    z-index: 100;
+}
+
+.cti-desk-jobs a {
+    color: #fff;
+}
+
+.cti-desk-jobs p {
+    text-align: center;
+    float: left;
+    width: 118px;
+    color: #FFF;
+    border-right: 1px solid #FFF;
+}
+
+.cti-desk-jobs span {
+    display: block;
+}
+
+.cti-desk-jobs .t-sp-1 {
+    font-size: 14px;
+    margin-bottom: 3px;
+}
+
+.cti-desk-jobs .t-sp-2 {
+    font-size: 12px;
+    transform: scale(0.8);
+}
+
+.cti-btn-down {
+    bottom: 10px;
+    left: 50%;
+    margin-left: -60px;
+    z-index: 100;
+    -webkit-animation: breathe 3s ease-in-out infinite;
+    animation: breathe 3s ease-in-out infinite;
+}
+
+
+/**/
+
+.cti-bg img {
+    width: 100%;
+}
+
+
+/* ===============================p2============================================ */
+
+.cti-page-2 {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 450px;
+    background: #000;
+}
+
+.cti-p2-top {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #000;
+}
+
+.cti-p2-top .cti-p2-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: 10;
+}
+
+.cti-p2-top .cti-p2-tit {
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    margin-top: -48px;
+    width: 363px;
+    z-index: 100;
+}
+
+.cti-text-bottom {
+    display: table;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 210px;
+    background: #161616;
+    text-align: center;
+    color: #a7a6a6;
+}
+
+.com-des {
+    margin-bottom: 15px;
+}
+
+.text-bottom-p {
+    margin-bottom: 15px;
+}
+
+
+/* ===============================p3============================================ */
+
+.cti-page-3 {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 700px;
+}
+
+.cti-p3-box {
+    overflow: hidden;
+    position: relative;
+    float: left;
+    width: 50%;
+}
+
+.p3-top {
+    background: #313538;
+}
+
+.p3-tit-wrap img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 60% !important;
+    z-index: 500;
+}
+
+.cti-page-3 .p3-top .p3-top-png {
+    position: static;
+    float: left;
+    display: block;
+    height: 100%;
+    width: auto;
+}
+
+.p3-inner-box {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.p3-inner-right {
+    overflow: hidden;
+    float: left;
+    margin-left: 30px;
+    width: 350px;
+    height: 100%;
+}
+
+.p3-inner-right p {
+    color: #adadad;
+    font-size: 16px;
+    line-height: 25px;
+    width: 315px;
+}
+
+.b-bottom {
+    border-bottom: 1px solid #6f7274;
+}
+
+.mar-top-30 {
+    margin-top: 20px;
+}
+
+.p3-inner-right p.more-p3 {
+    margin-top: 20px;
+    width: 120px;
+    height: 35px;
+    line-height: 35px;
+    border: 1px solid #949697;
+    text-align: center;
+}
+
+.p3-inner-tit {
+    width: 227px;
+    margin-top: 40px;
+}
+
+
+/* ===============================p4============================================ */
+
+.cti-page-4 {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background: #000;
+}
+
+.cti-p4-box {
+    position: relative;
+    overflow: hidden;
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+.cti-p4-box.pull-right {
+    float: right;
+}
+
+.cti-p4-box a {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+
+/*.cti-page-4 .cti-p4-box div{
+	display: table-cell;
+}*/
+
+.p4-inner-box p {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -ms-text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    -moz-binding: url("ellipsis.h-xml#ellipsis");
+}
+
+.cti-page-4 .cti-p4-box img {
+    display: block;
+}
+
+.p4-inner-box {
+    overflow: hidden;
+    position: relative;
+    float: left;
+    width: 33.333%;
+    height: 50%;
+}
+
+.p4-inner-box img {
+    width: 100%;
+}
+
+.p4-inner-box p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 94%;
+    padding: 10px 3.5%;
+    color: #adaeaf;
+    z-index: 200;
+    font-size: 14px;
+}
+
+.p4-inner-box a {
+    display: block;
+    height: 100%;
+}
+
+.bg-1 {
+    background: url('../../images/alpha_bg_0.5.png');
+}
+
+.bg-2 {
+    background: url('../../images/alpha_bg_0.5.png');
+}
+
+.bg-ccc {
+    background: #282828;
+}
+
+.w-100 {
+    width: 100% !important;
+}
+
+.p4-left-tit {
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+    width: 377px;
+    left: 10%;
+}
+
+.cti-page-5 {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 695px;
+}
+
+.cti-page-5 .cti-p5-box {
+    overflow: hidden;
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+.cti-page-7 {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 695px;
+    background: #000;
+}
+
+.cti-p7-box {
+    overflow: hidden;
+    position: relative;
+    float: left;
+    height: 100%;
+}
+
+.w-30 {
+    width: 35%;
+    background: #282828;
+}
+
+.w-70 {
+    width: 65%;
+}
+
+.cti-common-text {
+    display: table;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 500;
+}
+
+.cti-common-text img {
+    width: 100%;
+}
+
+.cti-middle-tit {
+    font-size: 22px;
+    text-align: center;
+    color: #FFF;
+    margin-bottom: 20px;
+}
+
+.cti-middle-des {
+    font-size: 14px;
+    text-align: center;
+    color: #FFF;
+    line-height: 25px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.w-75 {
+    width: 75%;
+    height: 50%;
+}
+
+.wid-50 {
+    width: 50%;
+    height: 50%;
+}
+
+.top-60 {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 60%;
+}
+
+.bottom-40 {
+    display: table;
+    width: 100%;
+    height: 40%;
+}
+
+.w-75 img {
+    width: 100%;
+}
+
+.p6-bottom-tit {
+    width: 190px;
+    display: block;
+    margin: 0 auto;
+}
+
+.p6-des {
+    width: 80%;
+    text-align: left;
+    padding-top: 20px;
+    color: #757678;
+    margin: 0 auto;
+}
+
+.p6-more {
+    width: 125px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border: 1px solid #d6d7d7;
+    color: #d6d7d7;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.cti-common-text img {
+    position: static !important;
+}
+
+.ve-middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.cti-common-text .cti-text-info {
+    text-align: center;
+    width: 158px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 1px solid #FFF;
+    color: #FFF;
+    cursor: pointer;
+    text-shadow: 2px 3px 8px rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 0px 8px 3px rgba(0, 0, 0, 0.1);
+}
+
+.cti-text-bottom h4 {
+    padding-top: 50px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.cti-text-bottom .t-1 {
+    text-align: center;
+    font-size: 22px;
+}
+
+.cti-text-bottom .t-2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.cti-more {
+    overflow: hidden;
+    position: relative;
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+    width: 160px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    cursor: pointer;
+    z-index: 300;
+    border: 1px solid #fff;
+}
+
+.cti-more p {
+    background: #FFF;
+    transition: All 0.4s ease-in-out;
+    -webkit-transition: All 0.4s ease-in-out;
+    -moz-transition: All 0.4s ease-in-out;
+    -o-transition: All 0.4s ease-in-out;
+    -webkit-animation-duration: 0.8s;
+    animation-duration: 0.8s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    display: none !important;
+}
+
+.cti-more:hover p {
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.cti-more:hover .line-t {
+    -webkit-animation-name: T;
+    animation-name: T;
+}
+
+.cti-more:hover .line-r {
+    -webkit-animation-name: R;
+    animation-name: R;
+    /*    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;*/
+}
+
+.cti-more:hover .line-b {
+    -webkit-animation-name: B;
+    animation-name: B;
+    /*    -webkit-animation-delay: 1s;
+    animation-delay: 1s;*/
+}
+
+.cti-more:hover .line-l {
+    -webkit-animation-name: L;
+    animation-name: L;
+    /*    -webkit-animation-delay: 1.5s;
+    animation-delay: 1.5s;*/
+}
+
+.cti-more span {
+    color: #FFF;
+}
+
+.cti-p3-innerWrap {
+    display: table;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.cti-bottom-btn {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.cti-bottom-btn span {
+    color: #808080;
+}
+
+.cti-bottom-btn p {
+    background: #808080;
+}
+
+.cti-p3-innerWrap div {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.cti-p3-li {
+    overflow: hidden;
+    /*width: 95%;height: 100%;*/
+    margin: 0 auto;
+}
+
+.cti-p3-li li {
+    float: left;
+    position: relative;
+    width: 25%;
+    cursor: pointer;
+}
+
+.cti-p3-li li img {
+    position: static !important;
+    width: 100%;
+}
+
+.cti-p3-li li i {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: url(../../images/soul/2px.png) repeat-x center;
+}
+
+.cti-p3-li li:hover i {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.cti-page-5 .cti-p5-box img.cti-p5-tit {
+    position: static;
+    display: block;
+    padding-top: 15%;
+    width: 246px;
+    margin: 0 auto;
+}
+
+.cti-page-5 .cti-p5-box ul {
+    overflow: hidden;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.cti-page-5 .cti-p5-box ul li {
+    position: relative;
+    float: left;
+    width: 20%;
+    height: 40px;
+}
+
+.cti-page-5 .cti-p5-box ul li p {
+    color: #858484;
+    font-size: 18px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.cti-page-5 .cti-p5-box ul li i {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 50px;
+    height: 2px;
+    background: url(../../images/soul/2px.png) repeat-x center;
+}
+
+.cti-page-5 .cti-p5-box ul li:hover i {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.bg-active {
+    opacity: 1 !important;
+}
+
+.cti-page-5 .cti-p5-box img.p5-des {
+    position: static;
+    display: block;
+    text-align: center;
+    width: 568px;
+    margin: 0 auto;
+    margin-top: 40px;
+    color: #858484;
+}
+
+.p5-more {
+    width: 130px;
+    height: 35px;
+    line-height: 35px;
+    border: 1px solid #FFF;
+    text-align: center;
+    font-size: 14px;
+    color: #FFF;
+    margin: 0 auto;
+    margin-top: 60px;
+    cursor: pointer;
+}
+
+.p7-text-box {
+    top: 20%;
+    bottom: inherit;
+    width: 123px;
+}
+
+.p7-text-box p {
+    width: 90%;
+}
+
+.cti-page-7 .w-30 img {
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    width: 230px;
+}
+
+.cti-des-tit {
+    position: relative;
+    left: 20%;
+    font-size: 22px;
+    color: #ababab;
+    line-height: 30px;
+}
+
+.cti-page-7 .w-30 ul {
+    position: relative;
+    left: 20%;
+    margin-top: 10px;
+}
+
+.cti-page-7 .w-30 ul li {
+    position: relative;
+    height: 40px;
+}
+
+.cti-page-7 .w-30 ul li p {
+    color: #ababab;
+    font-size: 14px;
+    line-height: 40px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.cti-page-7 .w-30 ul li i {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -6px;
+    height: 12px;
+    width: 12px;
+    background: url(../../images/technique/circle.png) no-repeat center;
+}
+
+.i-1 {
+    width: 100px;
+}
+
+.i-2 {
+    width: 100%;
+}
+
+.cti-page-7 .w-30 ul li:hover i {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.cti-page-7 .w-30 ul li:hover p {
+    color: #FFF;
+}
+
+.middle-box {
+    display: table;
+}
+
+.middle-box div {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.cti-page-7 .w-30 ul li.line-45 {
+    height: 45px;
+}
+
+.cti-page-7 .w-30 ul li.line-45 p {
+    line-height: 20px;
+}
+
+.cti-page-bottom {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 580px;
+}
+
+.cti-page-bottom .cti-bottom-top {
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 80px;
+    width: 60%;
+    margin-bottom: 20px;
+}
+
+.cti-bottom-top .car-show-box {
+    position: relative;
+    overflow: hidden;
+    float: left;
+    width: 25%;
+    height: 140px;
+    cursor: pointer;
+}
+
+.car-show-box .b-t {
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.car-show-box .b-b {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.car-show-box p {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 15px;
+    color: #FFF;
+    text-align: center;
+    font-size: 12px;
+}
+
+.car-show-box:hover p, .b-b {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.car-show-box:hover .b-b {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.cti-page-bottom .cti-bottom-footer {
+    overflow: hidden;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.cti-bottom-footer ul {
+    overflow: hidden;
+    width: 100%;
+}
+
+.cti-bottom-footer ul li {
+    float: left;
+    width: 20%;
+}
+
+.cti-bottom-footer ul li span {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    color: #616161;
+    cursor: pointer;
+}
+
+.bottom-show-img {
+    width: 1026px;
+    max-width: 100% !important;
+    display: block;
+    margin: 0 auto;
+    padding-top: 45px;
+}
+
+.cti-opacity-mask {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../../images/opacity_black.png) repeat;
+    z-index: 300;
+}
+
+.shadow-text {
+    text-shadow: 5px 5px 5px #000;
+}
+
+.cti-mask-box:hover .cti-opacity-mask {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.cti-p4-box.mini-bottom .cti-opacity-mask {
+    opacity: 1;
+}
+
+.cti-p4-box.mini-bottom .cti-mask-box:hover .cti-opacity-mask {
+    opacity: 0;
+}
+
+.cti-mask-box:hover .shadow-text {
+    text-shadow: none;
+}
+
+.cti-mask-box:hover .common-ani-des {
+    display: block;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    animation-delay: 0.5s;
+    -webkit-animation-delay: 0.5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+}
+
+.cti-mask-box:hover .common-ani-tit {
+    opacity: 0;
+    filter: alpha(opacity=100);
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    animation-delay: 0.5s;
+    -webkit-animation-delay: 0.5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+}
+
+.mini-footer {
+    display: none;
+}
+
+.cti-w-40 {
+    width: 43%;
+}
+
+.cti-w-60 {
+    width: 57%;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.h-30 {
+    height: 40%;
+}
+
+.h-50 {
+    height: 50%;
+}
+
+.h-70 {
+    height: 60%;
+}
+
+.mini-bg {
+    display: none;
+}
+
+.prod-bg {
+    display: block;
+}
+
+.cti-common-height {
+    height: 210px;
+    display: table;
+    padding: 0px!important;
+    width: 100%;
+}
+
+.cti-common-table {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+@media screen and (max-width: 1440px) {
+    .cti-common-height {
+        height: 130px;
+        display: table;
+        padding: 0px!important;
+        width: 100%;
+    }
+    .cti-common-table {
+        display: table-cell;
+        vertical-align: middle;
+    }
+    .cti-more {
+        width: 108px;
+        height: 28px;
+        line-height: 28px;
+        font-size: 12px;
+    }
+    .cti-common-text .cti-text-info {
+        width: 108px;
+        height: 28px;
+        line-height: 28px;
+        font-size: 12px;
+    }
+    .cti-p1-titBox i {
+        bottom: 15%;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .cti-common-height {
+        height: auto;
+        display: table;
+        padding: 0px!important;
+        width: 100%;
+    }
+    .cti-common-table {
+        display: table-cell;
+        vertical-align: middle;
+    }
+    .p6-des {
+        text-align: center;
+        font-size: 12px;
+        padding-top: 10px;
+    }
+    .cti-des-tit {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .cti-page-7 .w-30 ul, .cti-des-tit {
+        left: 10%;
+    }
+    .cti-page-7 .w-30 ul li {
+        height: 25px;
+    }
+    .cti-page-7 .w-30 ul li p {
+        line-height: 25px;
+    }
+    .cti-text-bottom .t-1 {
+        letter-spacing: 6px;
+    }
+    .p6-bottom-tit {
+        width: 140px;
+    }
+    .p6-des {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .cti-p1-titBox img {
+        width: 60%;
+    }
+    .cti-p1-titBox {
+        height: 100%;
+    }
+    .cti-desk-jobs, .cti-btn-down, .p3-top, .cti-page-bottom {
+        display: none;
+    }
+    .cti-soul-des {
+        display: none !important;
+    }
+    .cti-soul-img {
+        display: block !important;
+    }
+    .cti-p2-top .cti-p2-bg {
+        left: -65%;
+    }
+    .cti-p2-top .cti-p2-tit {
+        width: 35%;
+        margin: auto;
+        top: 0;
+        bottom: 0;
+    }
+    /*.cti-page-3 .cti-p3-box{width: 100%;height: 50%;}*/
+    .cti-page-3 {
+        position: relative;
+        height: auto !important;
+    }
+    .cti-page-3 .cti-bg {
+        position: static !important;
+        width: 100% !important;
+        height: 100% !important;
+    }
+    .cti-page-3 .cti-bg img {
+        max-width: 100%;
+        display: block;
+    }
+    .cti-common-text {
+        position: absolute;
+        top: 30%;
+    }
+    .cti-p3-li li {
+        width: 50%;
+    }
+    .cti-p3-li li img {
+        width: 50%;
+        margin: 0 auto;
+        display: block;
+    }
+    .cti-page-4 {
+        height: auto !important;
+    }
+    .cti-p4-box {
+        width: 100%;
+    }
+    .cti-p4-box .cti-bg {
+        position: static !important;
+        width: 100% !important;
+        height: 100% !important;
+    }
+    .cti-p4-box .cti-bg img {
+        display: block;
+        width: 100%;
+    }
+    .p4-inner-box img.cti-bg {
+        position: static !important;
+        display: block;
+    }
+    .p4-inner-box {
+        width: 50%;
+        height: auto;
+    }
+    .p4-inner-box p {
+        position: relative;
+    }
+    .mini-top {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 30%;
+    }
+    .mini-bottom {
+        position: relative;
+        top: 30%;
+        left: 0;
+        width: 100%;
+        height: auto;
+    }
+    .cti-middle-des {
+        display: none;
+    }
+    .cti-h-40 {
+        height: 40%;
+    }
+    .cti-h-60 {
+        height: 60%;
+        top: 40%;
+    }
+    .cti-w-40 {
+        width: 100%;
+    }
+    .cti-w-60 {
+        width: 100%;
+    }
+    .h-30 {
+        height: 30%;
+    }
+    .h-70 {
+        height: 70%;
+    }
+    .mini-footer {
+        display: block;
+    }
+    .cti-opacity-mask {
+        opacity: 0;
+        filter: alpha(opacity=0);
+    }
+    .cti-mask-box:hover .common-ani-tit {
+        opacity: 1;
+        filter: alpha(opacity=100);
+    }
+    .cti-mask-box:hover .common-ani-des {
+        display: none;
+    }
+    /**/
+    .middle-box {
+        padding: 10% 0px;
+    }
+    .cti-ipad-center {
+        text-align: center;
+    }
+    .cti-ipad-center .cti-des-tit {
+        left: 0px;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 550px) {
+    .cti-page {
+        height: 400px !important;
+    }
+    .cti-mini-nav {
+        position: absolute;
+        top: 400px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .cti-soul-des {
+        display: none;
+    }
+    .cti-p1-titBox {
+        top: 25%;
+    }
+    .cti-soul-des * {
+        letter-spacing: 0;
+    }
+    .cti-middle-tit {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .cti-middle-des {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    .cti-common-text .cti-text-info {
+        width: 100px;
+        height: 25px;
+        line-height: 25px;
+        font-size: 12px;
+    }
+    .cti-text-bottom .t-1 {
+        font-size: 16px;
+        margin-bottom: 2px;
+    }
+    .cti-text-bottom .t-2 {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    .cti-text-bottom .t-3 {
+        font-size: 12px;
+        width: 80%;
+        margin: 0 auto;
+        line-height: 16px;
+    }
+    .cti-text-bottom {
+        height: 160px;
+    }
+    .cti-bottom-btn {
+        top: 0;
+        bottom: 0;
+        margin-top: auto;
+    }
+    .cti-bottom-btn p {
+        background: #FFF;
+    }
+    .cti-bottom-btn span {
+        color: #FFF;
+    }
+    .cti-des-tit {
+        text-align: center;
+        left: 0;
+    }
+    .mini-bg {
+        display: block;
+    }
+    .prod-bg {
+        display: none;
+    }
+    .cti-page-2 {
+        margin-top: 50px;
+    }
+    .cti-more {
+        width: 120px;
+        height: 30px;
+        line-height: 30px;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .cti-page {
+        height: 250px !important;
+    }
+    .cti-mini-nav {
+        position: absolute;
+        top: 220px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .text-bottom-p {
+        font-size: 14px;
+    }
+    .com-des {
+        font-size: 12px;
+    }
+    .cti-soul-des {
+        margin-top: 20px;
+    }
+    .cti-soul-des * {
+        font-size: 12px;
+    }
+    .cti-p1-titBox img {
+        margin-top: 50px;
+    }
+    .cti-p1-titBox i {
+        position: static;
+        margin: 0px auto;
+        width: 25px;
+        height: 25px;
+        background: url(../../images/add_icon.png) no-repeat center;
+        background-size: 100% 100%;
+    }
+}
+
+@media screen and (max-width: 380px) {}
+
+@media screen and (max-width: 350px) {}

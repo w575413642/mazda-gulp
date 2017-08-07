@@ -1,0 +1,45 @@
+<div class="d-right">
+    <div id="cti_evolvemodal_slick" class="slick fade">
+        <div class="image"><img src="images/design/evolution/1989/1.jpg" alt=""></div>
+        <div class="image"><img src="images/design/evolution/1989/2.jpg" alt=""></div>
+        <div class="image"><img src="images/design/evolution/1989/3.jpg" alt=""></div>
+        <div class="image"><img src="images/design/evolution/1989/4.jpg" alt=""></div>
+        <div class="image"><img src="images/design/evolution/1989/5.jpg" alt=""></div>
+        <div class="image"><img src="images/design/evolution/1989/6.jpg" alt=""></div>
+    </div>
+</div>
+<div class="d-left">
+    <ul id="cti_evolvemodal_tab">
+        <li><img src="images/design/evolution/1989/1.jpg" alt=""></li>
+        <li><img src="images/design/evolution/1989/2.jpg" alt=""></li>
+        <li><img src="images/design/evolution/1989/3.jpg" alt=""></li>
+        <li><img src="images/design/evolution/1989/4.jpg" alt=""></li>
+        <li><img src="images/design/evolution/1989/5.jpg" alt=""></li>
+        <li><img src="images/design/evolution/1989/6.jpg" alt=""></li>
+    </ul>
+</div>
+<div class="d-right">
+    <div class="d-article">
+        <div class="d-title">
+            <h1>光影美学</h1>
+            <span>[1989年~]</span>
+        </div>
+        <p>
+            20世纪90年代,马自达的设计着眼于立体造型的相互映射的美感,创造出柔和的布局形态.除了追求汽车性能与造型的完美结合之外,通过对车身细节部位结构所产生的光影控制,在形式上也更加注重创造令消费者"一见倾心"的视觉感受.
+        </p>
+        <p>
+            <br>代表车型: <br> 1989年 第一代 MX-5 <br>1991年 第三代 RX-7 (Anfini RX-7) <br>1993年 Lantis Coupe
+        </p>
+    </div>
+</div>
+<script type="text/javascript">
+    (function() {
+        $('#cti_evolvemodal_slick').slick({
+            arrows: false,
+            fade: true
+        });
+        $('#cti_evolvemodal_tab li').mouseenter(function() {
+            $('#cti_evolvemodal_slick').slick('slickGoTo', $(this).index());
+        });
+    })();
+</script>

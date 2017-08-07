@@ -1,0 +1,11 @@
+.cti-welcome-pagination span {
+    background: url('../images/alpha_0.png');
+}
+
+.fadeOutUp {
+    visibility: hidden !important;
+}
+
+.fadeOutDown {
+    visibility: hidden !important;
+}
